@@ -93,10 +93,11 @@
                   </persName>
                   <idno type="URL">http://d-nb.info/gnd/106534785</idno>
                </person>
-               <person xml:id="ullrich_">
+               <person xml:id="ulrich_">
                   <persName>
-                     <surname>Ullrich</surname>
+                     <surname>Ulrich</surname>
                      <forename/>
+                     <roleName>stud. phil.</roleName>
                   </persName>
                </person>
                <person xml:id="börge_vagn">
@@ -172,7 +173,7 @@
                <person xml:id="leuschke_">
                   <persName>
                      <surname>Leuschke</surname>
-                     <forename/>
+                     <forename>Georg Edmund Alfred</forename>
                      <roleName type="degree" full="abb">Prof.</roleName>
                   </persName>
                </person>
@@ -220,7 +221,7 @@
                <person xml:id="stumpfl_">
                   <persName>
                      <surname>Stumpfl</surname> 
-                     <!-- evtl. Friedrich Stumpfl? -->
+                     <note>evtl. Friedrich Stumpfl?</note>
                   </persName>
                </person>
                <person xml:id="pirckheimer_willibald">
@@ -247,22 +248,21 @@
                   </persName>
                   <idno type="person">http://d-nb.info/gnd/118715372</idno>
                </person>
-               <person xml:id="vischer_peter"> <!-- unklar - gibt einen Älteren und einen Jüngeren (zeitlich passen beide) -->
+               <person xml:id="vischer_peter">
                   <persName>
                      <surname>Vischer</surname>
                      <forename>Peter</forename>
                      <roleName>Kunsthandwerker</roleName>
                   </persName>
-                  <idno type="URL">http://d-nb.info/gnd/118768654</idno> 
-                  <!-- d. Ältere -->
+                  <idno type="URL">http://d-nb.info/gnd/118768654</idno>
                   <idno type="URL">http://d-nb.info/gnd/118768662</idno> 
-                  <!-- d. Jüngere  -->
+                  <note>unklar - gibt einen Älteren und einen Jüngeren (zeitlich passen beide), die erste GND ist vom Älteren, die zweite vom Jüngeren</note>
                </person>
                <person xml:id="pernkopf_eduard">
                   <persName>
                      <surname>Pernkopf</surname>
                      <forename>Eduard</forename>
-                     <roleName>Rektor der <rs>Universität Wien </rs>
+                     <roleName>Rektor der <rs type="org" ref="#universitaet_wien">Universität Wien</rs>
                      </roleName>
                   </persName>
                   <idno type="URL">http://d-nb.info/gnd/121907155</idno>
@@ -368,8 +368,9 @@
                </person>
                <person xml:id="müthel_lothar">
                   <persName>
-                     <surname>Müthel</surname>
+                     <surname type="pseudo">Müthel</surname>
                      <forename>Lothar</forename>
+                     <roleName>Generalintendant der Staatstheater</roleName>
                   </persName>
                   <idno type="URL">http://d-nb.info/gnd/119049309</idno>
                </person>
@@ -466,6 +467,360 @@
                      <forename>Joseph</forename>
                   </persName>
                   <idno type="URL">http://d-nb.info/gnd/119368579</idno>
+               </person>
+               <person xml:id="pirchan_emil">
+                  <persName>
+                     <surname>Pirchan</surname>
+                     <forename>Emil</forename>
+                     <roleName type="degree">Prof.</roleName>
+                     <roleName>Schriftsteller</roleName>
+                     <roleName>Architekt</roleName>
+                     <roleName>Maler</roleName>
+                     <roleName>Bühnenbildner</roleName>
+                  </persName>
+                  <idno type="URL">http://d-nb.info/gnd/118594559</idno>
+               </person>
+               <person xml:id="herterich_franz">
+                  <persName>
+                     <surname>Herterich</surname>
+                     <forename>Franz</forename>
+                     <roleName>Schauspieler</roleName>
+                     <roleName>Oberregisseur des <rs ref="#burgtheater" type="org">Burgtheaters</rs>
+                            </roleName>
+                  </persName>
+                  <idno type="URL">http://d-nb.info/gnd/116752947</idno>
+               </person>
+               <person xml:id="lessing_gotthold_ephraim">
+                  <persName>
+                     <surname>Lessing</surname>
+                     <forename>Gotthold</forename>
+                     <forename>Ephraim</forename>
+                     <roleName>Schriftsteller</roleName>
+                     <roleName>Philosoph</roleName>
+                  </persName>
+                  <idno type="URL">http://d-nb.info/gnd/118572121</idno>
+               </person>
+               <person xml:id="jelusich_mirko">
+                  <persName>
+                     <surname>Jelusich</surname>
+                     <forename>Mirko</forename>
+                     <roleName>Dichter</roleName>
+                     <roleName>Dramatiker</roleName>
+                  </persName>
+                  <idno type="URL">http://d-nb.info/gnd/118746901</idno>
+               </person>
+               <person xml:id="winzberger_">
+                  <persName>
+                     <surname>Winzberger</surname>
+                     <forename/>
+                     <roleName>Technischer Direktor des <rs type="org" ref="#burgtheater">Burgtheaters</rs>
+                            </roleName>
+                  </persName>
+                  <idno/>
+               </person>
+               <person xml:id="exl_ilse">
+                  <persName>
+                     <surname>Exl</surname>
+                     <forename>Ilse</forename>
+                  </persName>
+                  <idno>http://d-nb.info/gnd/13746973X</idno>
+               </person>
+               <person xml:id="exl_anna">
+                  <persName>
+                     <surname>Exl</surname>
+                     <forename>Anna</forename>
+                  </persName>
+                  <idno>http://d-nb.info/gnd/1021284319</idno>
+               </person>
+               <person xml:id="schoenherr_">
+                  <persName>
+                     <surname>Schönherr</surname>
+                     <forename/>
+                  </persName>
+                  <idno/>
+               </person>
+               <person xml:id="ibsen_henrik">
+                  <persName>
+                     <surname>Ibsen</surname>
+                     <forename>Henrik</forename>
+                     <roleName>Schriftsteller</roleName>
+                  </persName>
+                  <idno>http://d-nb.info/gnd/118555286</idno>
+               </person>
+               <person xml:id="schiller_friedrich">
+                  <persName>
+                     <surname>Schiller</surname>
+                     <forename>Friedrich</forename>
+                     <roleName>Schriftsteller</roleName>
+                  </persName>
+                  <idno>http://d-nb.info/gnd/118607626</idno>
+               </person>
+               <person xml:id="hebbel_friedrich">
+                  <persName>
+                     <surname>Hebbel</surname>
+                     <forename>Friedrich</forename>
+                     <roleName>Schriftsteller</roleName>
+                  </persName>
+                  <idno>http://d-nb.info/gnd/118547445</idno>
+               </person>
+               <person xml:id="devrient_otto">
+                  <persName>
+                     <surname>Devrient</surname>
+                     <forename>Otto</forename>
+                     <roleName>Schauspieler</roleName>
+                  </persName>
+                  <idno/>
+               </person>
+               <person xml:id="lutz_">
+                  <persName>
+                     <surname>Lutz</surname>
+                     <forename/>
+                     <roleName type="degree" full="yes">Dozent</roleName>
+                  </persName>
+               </person>
+               <person xml:id="zurnedden_">
+                  <persName>
+                     <surname>zur Nedden</surname>
+                     <forename/>
+                     <roleName type="degree" full="abb">Prof.</roleName>
+                     <roleName>Inhaber des Lehrauftrags für
+                        Theaterwissenschaft an der <rs type="org" ref="#universitaet_jena">Universität Jena</rs>
+                            </roleName>
+                     <roleName>Chefdramaturg des <rs type="org" ref="#deutsches_nationaltheater">Nationaltheaters</rs>
+                            </roleName>
+                  </persName>
+               </person>
+               <person xml:id="marlowe_christopher">
+                  <persName>
+                     <surname>Marlowe</surname>
+                     <forename>Christopher</forename>
+                     <roleName>Dramatiker</roleName>
+                  </persName>
+                  <idno type="URL">http://d-nb.info/gnd/118578065</idno>
+               </person>
+               <person xml:id="calderon_pedro">
+                  <persName>
+                     <surname type="first">Calderón</surname>
+                     <surname type="last">Barca</surname>
+                     <nameLink>de la</nameLink>
+                     <forename>Pedro</forename>
+                     <roleName>Dramatiker</roleName>
+                  </persName>
+                  <idno type="URL">http://d-nb.info/gnd/118518399</idno>
+               </person>
+               <person xml:id="iltz_bruno">
+                  <persName>
+                     <surname>Iltz</surname>
+                     <forename>Bruno</forename>
+                     <roleName>Generalintendant des <rs type="org" ref="#deutsches_volkstheater">Deutschen Volkstheaters</rs>
+                            </roleName>
+                  </persName>
+                  <idno>http://d-nb.info/gnd/117129518</idno>
+               </person>
+               <person xml:id="grom-rottmayer_hermann">
+                  <persName>
+                     <surname>Grom-Rottmayer</surname>
+                     <forename>Hermann</forename>
+                     <roleName type="degree" full="abb">Prof.</roleName>
+                  </persName>
+                  <idno>http://d-nb.info/gnd/126333394</idno>
+               </person>
+               <person xml:id="kranich_">
+                  <persName>
+                     <surname>Kranich</surname>
+                     <forename/>
+                     <roleName>Leiter des an der <rs type="org" ref="#technische_hochschule_hannover">Technischen Hochschule</rs> in
+                        <rs type="place" ref="#hannover">Hannover</rs> gegründeten <rs type="org" ref="#theaterwissenschaftliches_institut_hannover">Theaterwissenschaftlichen Instituts</rs>
+                            </roleName>
+                     <roleName type="degree" full="abb">Prof.</roleName>
+                  </persName>
+                  <idno/>
+               </person>
+               <person xml:id="holbein_franz">
+                  <persName>
+                     <surname>Holbein</surname>
+                     <forename type="first">Franz</forename>
+                     <forename type="middle">Ignaz</forename>
+                     <nameLink>von</nameLink>
+                     <roleName>Direktor des <rs type="org" ref="#burgtheater">Burgtheaters</rs>
+                            </roleName>
+                  </persName>
+                  <idno>http://d-nb.info/gnd/100844901</idno>
+               </person>
+               <person xml:id="thimig_hugo">
+                  <persName>
+                     <surname>Thimig</surname>
+                     <forename>Hugo</forename>
+                     <roleName>Direktor des <rs type="org" ref="#burgtheater">Burgtheaters</rs>
+                            </roleName>
+                  </persName>
+                  <idno>http://d-nb.info/gnd/11875713X</idno>
+               </person>
+               <person xml:id="millenkovich_max">
+                  <persName>
+                     <surname>Millenkovich</surname>
+                     <forename>Max</forename>
+                     <nameLink>von</nameLink>
+                     <roleName>Direktor des <rs type="org" ref="#burgtheater">Burgtheaters</rs>
+                            </roleName>
+                  </persName>
+                  <idno>http://d-nb.info/gnd/117042242</idno>
+               </person>
+               <person xml:id="rommel_otto">
+                  <persName>
+                     <surname>Rommel</surname>
+                     <forename>Otto</forename>
+                     <roleName>Schriftsteller</roleName>
+                     <roleName>Herausgeber</roleName>
+                     <roleName>Literaturhistoriker</roleName>
+                     <roleName>Lehrer</roleName>
+                  </persName>
+                  <idno type="URL">http://d-nb.info/gnd/14047076X</idno>
+               </person>
+            <person xml:id="frank_eduard">
+               <persName>
+                  <surname>Frank</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </person>
+               <person xml:id="pilger_else">
+                  <persName>
+                     <surname>Pilger</surname>
+                     <forename>Else</forename>
+                     </persName>
+                  <idno type="URL">http://d-nb.info/gnd/125564295</idno>
+               </person>
+               <person xml:id="gregor_joseph">
+                  <persName>
+                     <surname>Gregor</surname>
+                     <forename>Joseph</forename>
+                     <roleName>Kunsthistoriker</roleName>
+                     <roleName>Theaterwissenschaftler</roleName>
+                     <roleName>Schriftsteller</roleName>
+                     <roleName>Bibliothekar</roleName>
+                  </persName>
+                  <idno type="URL">http://d-nb.info/gnd/118697455</idno>
+               </person>
+               <person xml:id="wagner_richard">
+                  <persName>
+                     <surname>Wagner</surname>
+                     <forename>Richard</forename>
+                     <roleName>Komponist</roleName>
+                  </persName>
+                  <idno type="URL">http://d-nb.info/gnd/118594117</idno>
+               </person>
+               <person xml:id="grabbe_christian">
+                  <persName>
+                     <surname>Grabbe</surname>
+                     <forename type="first">Christian</forename>
+                     <forename type="middle">Dietrich</forename>
+                     <roleName>Dramatiker</roleName>
+                  </persName>
+                  <idno type="URL">http://d-nb.info/gnd/118541102</idno>
+               </person>
+               <person xml:id="storm_theodor">
+                  <persName>
+                     <surname>Storm</surname>
+                     <forename>Theodor</forename>
+                     <roleName>Schriftsteller</roleName>
+                  </persName>
+                  <idno type="URL">http://d-nb.info/gnd/118618725</idno>
+               </person>
+               <person xml:id="stuppaeck_hermann">
+                  <persName>
+                     <surname>Stuppäck</surname>
+                     <forename>Hermann</forename>
+                     <roleName>Generalkulturreferent</roleName>
+                  </persName>
+                  <idno>http://d-nb.info/gnd/117363669</idno>
+                  <!-- https://books.google.at/books?id=doQrDwAAQBAJ&pg=PT106&lpg=PT106&dq=Generalkulturreferent+wien+1944&source=bl&ots=mF3wdmwwIl&sig=QOL6ZBJZjvMhThzPLsczBOWGgps&hl=de&sa=X&ved=0ahUKEwjdmf6U4KrZAhUCU1AKHREiCa4Q6AEIXTAJ#v=onepage&q=Generalkulturreferent%20wien%201944&f=false -->
+               </person>
+               <person xml:id="spies_johann">
+                  <persName>
+                     <surname>Spies</surname>
+                     <forename>Johann</forename>
+                     <roleName>Buchdrucker</roleName>
+                  </persName>
+                  <idno>http://d-nb.info/gnd/11879826X</idno>
+               </person>
+               <person xml:id="wurm_ernst">
+                  <persName>
+                     <surname>Wurm</surname>
+                     <forename>Ernst</forename>
+                     <roleName>Schriftsteller</roleName>
+                     <roleName>Journalist</roleName>
+                     <idno>http://d-nb.info/gnd/119559617</idno>
+                  </persName>
+               </person>
+               <person xml:id="george_heinrich">
+                  <persName>
+                  <surname>George</surname>
+                     <forename>Heinrich</forename>
+                     <roleName>Schauspieler</roleName>
+                     <roleName>Herstellungsleiter</roleName>
+                     <roleName>Theaterintendant</roleName>
+                     <idno>http://d-nb.info/gnd/118690507</idno>
+                  </persName>
+               </person>
+               <person xml:id="gründgens_gustaf">
+                  <persName>
+                     <surname>Gründgens</surname>
+                     <forename>Gustaf</forename>
+                     <roleName>Schauspieler</roleName>
+                     <roleName>Theaterintendant</roleName>
+                     <roleName>Regisseur</roleName>
+                     <roleName>Herstellungsleiter</roleName>
+                     <idno>http://d-nb.info/gnd/118542850</idno>
+                  </persName>
+               </person>
+               <person xml:id="bahr-mildenburg_anna">
+                  <persName>
+                     <surname>Bahr-Mildenburg</surname>
+                     <forename>Anna</forename>
+                     <roleName>Schriftstellerin</roleName>
+                     <roleName>Sängerin</roleName>
+                     <idno>http://d-nb.info/gnd/118646370</idno>
+                  </persName>
+               </person>
+               <person xml:id="gluck_christoph">
+                  <persName>
+                     <surname>Gluck</surname>
+                     <forename type="middle">Willibald</forename>
+                     <forename type="first">Christoph</forename>
+                     <roleName>Komponist</roleName>
+                     <idno>http://d-nb.info/gnd/118539841</idno>
+                  </persName>
+               </person>
+               <person xml:id="strauß_richard">
+                  <persName>
+                     <surname>Strauß</surname>
+                     <surname>
+                                <alt/>Strauss<alt/>
+                            </surname>
+                     <forename>Richard</forename>
+                     <roleName>Komponist</roleName>
+                     <roleName>Dirigent</roleName>
+                     <idno>http://d-nb.info/gnd/11861911X</idno>
+                  </persName>
+               </person>
+               <person xml:id="kayssler_friedrich">
+                  <persName>
+                     <surname>Kayssler</surname>
+                     <forename>Friedrich</forename>
+                     <roleName>Schauspieler</roleName>
+                     <roleName>Theaterdirektor</roleName>
+                     <idno>http://d-nb.info/gnd/118721402</idno>
+                  </persName>
+               </person>
+               <person xml:id="schuh_oskar">
+                  <persName>
+                     <surname>Schuh</surname>
+                     <forename type="middle">Fritz</forename>
+                     <forename type="first">Oskar</forename>
+                     <roleName>Regisseur</roleName>
+                     <roleName>Theaterintendant</roleName>
+                     <idno>http://d-nb.info/gnd/118611208</idno>
+                  </persName>
                </person>
             </listPerson>
          </p>

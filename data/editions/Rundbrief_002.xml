@@ -55,6 +55,10 @@
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml" xpointer="listorg">
                <fallback xmlns="http://www.w3.org/2001/XInclude">File to include couldn't be found</fallback>
             </xi:include>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listwork.xml" xpointer="listwork">
+               <fallback xmlns="http://www.w3.org/2001/XInclude">File to include couldn't be
+                  found</fallback>
+            </xi:include>
          </p>
       </encodingDesc>
    </teiHeader>
@@ -69,7 +73,7 @@
             <num>No. 2</num> Erscheint jährlich viermal</head>
          <div type="letter" n="1">
             <salute>Liebe Kameraden!</salute>
-            <p>Seit wir Euch den ersten Rundbrief <ref target="http://d-nb.info/02158866X"/> sandten, ist in unserem
+            <p>Seit wir Euch den <rs type="work" ref="#rundbrief_01">ersten Rundbrief</rs> sandten, ist in unserem
                <rs type="org" ref="#zentralinstitut">Zentralinstitut</rs> 
                viel Arbeit geleistet worden. Wir tun sie aber gerne,
                weil wir wissen, daß all das eines Tages Euch zugute kommen wird,
@@ -79,44 +83,39 @@
                Arbeit beschäftigt, hoffen wir, Euch eine Freude damit zu bereiten,
                daß wir Euch vorerst berichten, was wir dafür vorbereiten konnten.
                Zuerst fanden sich in den Sommerferien etwa zehn Studentinnen im
-               Arbeitseinsatz in unserem Institut ein und führten unter der Leitung
+               Arbeitseinsatz in <rs type="org" ref="#zentralinstitut">unserem Institut</rs> ein und führten unter der Leitung
                von <rs type="person" ref="#meyer_ruth">Frl. Meyer</rs> den Verfasserkatalog der immer größer werdenden
                Bücherei zu Ende. Dazu soll nun aber noch ein möglichst ins Ein
                zelne gehender Schlagwortkatalog treten, damit unsere Bibliothek
                vielseitig und ohne viel Suchen benutzbar ist.</p>
             <p>Unsere Bücherbestände wurden indes außerordentlich bereichert.
-               Zu der im ersten Rundbrief <ref target="http://d-nb.info/02158866X"/> erwähnten Buschbibliothek, einer thea
-               tergeschichtlichen Leihgabe der Stadt <geogName>Münster</geogName>, im Umlauf von
-               3000 Bänden kam nun allmählich ein Eigenbesitz von bisher
-               7000 Bänden. Gerade in diesen Tagen konnten wir überdies aus
-               einem <geogName>
-               <geogFeat>alpen</geogFeat>ländischen</geogName> Schloß eine kostbare Bibliothek von
-               2500 Dramentexten (Spielbüchern) aus der Zeit <date notBefore="1770-01-01" notAfter="1830-12-31">von 1770 bis 1830</date>
-               dazu erwerben, so daß unser Eigenbesitz bald schon 10 000 Bände
-               erreicht.</p>
+               Zu der im <rs type="work" ref="#rundbrief_01">ersten Rundbrief</rs> erwähnten <rs type="org" ref="#busch-bibliothek">Buschbibliothek&gt;</rs>, einer
+               theatergeschichtlichen Leihgabe der Stadt <rs ref="#münster" type="place">Münster</rs>, im Umlauf von
+               <num>3000</num> Bänden kam nun allmählich ein Eigenbesitz von bisher
+               <num>7000</num> Bänden. Gerade in diesen Tagen konnten wir überdies aus
+               einem alpenländischen Schloß eine kostbare Bibliothek von
+               <num>2500</num> Dramentexten (Spielbüchern) aus der Zeit <date notBefore="1770-01-01" notAfter="1830-12-31">von 1770 bis 1830</date>
+               dazu erwerben, so daß unser Eigenbesitz bald schon 10000 Bände erreicht.</p>
             <p>Es versteht sich von selbst, daß parallel dazu auch unser Bilder
-               bestand dauernd ergänzt wird. Beides fügt sich zu einem wissen
-            schaftlich benutzbaren Forschungs- und Studienapparat zu
-            sammen.</p>
-            <p>Die wichtigste Erwerbung aber, die bald schon ein Anziehungs
-            punkt für viele Forscher und Dissertanten sein wird, ist das "Theater-
-            archiv Leuschke". Der heute 72-jährige <rs type="person" ref="#leuschke_">Prof. Leuschke</rs> 
-            <geogName>(Dresden)</geogName> hat
-            in mehr als 50-jähriger Arbeit über 60000 Theaterkritiken, Schau
-            spielerbiographien und Nekrologe aus Zeitungen und Zeitschriften
-            von <date notBefore="1800-01-01" notAfter="1943-12-31">1800 bis 1943</date> gesammelt und wissenschaftlich genau beschriftet.
-            Dieses Theaterarchiv Leuschke wurde nun dankenswerterweise von</p>
+               bestand dauernd ergänzt wird. Beides fügt sich zu einem wissenschaftlich benutzbaren Forschungs- und Studienapparat zusammen.</p>
+            <p>Die wichtigste Erwerbung aber, die bald schon ein Anziehungspunkt 
+               für viele Forscher und Dissertanten sein wird, ist das "Theaterarchiv Leuschke". Der <date notBefore="1943-11-01" notAfter="1943-11-30">heute</date> 
+               72-jährige <rs type="person" ref="#leuschke_">Prof. Leuschke</rs> 
+               (<rs ref="#dresden" type="place">Dresden</rs>) hat
+               in mehr als 50-jähriger Arbeit über <num>60000</num> Theaterkritiken, Schauspielerbiographien und Nekrologe aus Zeitungen und Zeitschriften
+               von <date notBefore="1800-01-01" notAfter="1943-12-31">1800 bis 1943</date> gesammelt und wissenschaftlich genau beschriftet.
+               Dieses Theaterarchiv Leuschke wurde nun dankenswerterweise von</p>
                    
             <pb n="2"/>
-            <p>der Stadt <geogName>Wien</geogName> für die <rs type="org" ref="#stadtbibliothek">Stadtbibliothek</rs> erworben, jedoch dem <rs type="org" ref="#zentralinstitut">Zen-
-           tralinstitut für Theaterwissenschaft</rs> als Dauerleihgabe übergeben.
-            Hier wird es von nun an der gesamten <geogName>europäischen</geogName> Forschung, vor
+            <p>der Stadt <rs ref="#Wien" type="place">Wien</rs> für die <rs type="org" ref="#stadtbibliothek">Stadtbibliothek</rs> erworben,
+            jedoch dem <rs type="org" ref="#zentralinstitut">Zentralinstitut für Theaterwissenschaft</rs> als Dauerleihgabe übergeben.
+            Hier wird es von nun an der gesamten europäischen Forschung, vor
             allem aber Euch dann bei Euerer Arbeit zur Verfügung stehen. Das
             darin enthaltene Quellenmaterial ist unheimlich groß und reich. Vor
             allem aber werden dadurch viele Reisen in die betreffenden Städte
             erspart.</p>
-            <p>Dank einer Stiftung der <rs type="org" ref="#gesellschaft_für_wiener_theatergeschichte">Gesellschaft für Wiener Theater
-            geschichte</rs> können nun unter der Leitung von <rs type="person" ref="#zirnig_margarete">Frl. Dr. Zirnig</rs> gleich
+            <p>Dank einer Stiftung der <rs type="org" ref="#gesellschaft_für_wiener_theatergeschichte">Gesellschaft für Wiener Theatergeschichte</rs> 
+            können nun unter der Leitung von <rs type="person" ref="#zirnig_margarete">Frl. Dr. Zirnig</rs> gleich
             einige geschulte Fachkräfte angesetzt werden, um zu diesem Archiv
             die nötige Schlagwortkartei zu erarbeiten, die dann rund 300 000 Zet
             tel umfassen wird.</p>
@@ -133,17 +132,98 @@
             entsprechende Spezialbearbeiter verteilt werden, so daß mit dem
             Eingang der Manuskripte Ende <date>1944</date> zu rechnen ist.</p>
             <p>Der mittlere Band der Theatergeschichte des deutschen Volkes
-            "Das Nationaltheater des deutschen Volkes" von <rs type="person" ref="#kindermann_heinz">Prof. Dr. Kinder
-             mann</rs> ist im Fahnensatz fertig. Er wird nun eben illustriert. Wir
-             hoffen, daß es im Frühjahr oder Sommer <date>1944</date> im <rs type="org" ref="#propyläenverlag">Propyläenverlag</rs>,
-             <geogName>Berlin</geogName>, Kochstraße, erscheint. Jüngst erschien <rs type="person" ref="#kindermann_heinz">Prof. Dr. Kindermann</rs>
-               Abhandlung <rs type="work" ref="#hebbel_kindermann">"Hebbel und das Wiener Theater seiner Zeit"</rs> im <rs type="org" ref="#verlag_frick">Verlag Frick</rs>, <geogName>Wien</geogName>, I., Graben.
+            "Das Nationaltheater des deutschen Volkes" von <rs type="person" ref="#kindermann_heinz">Prof. Dr. Kindermann</rs> 
+            ist im Fahnensatz fertig. Er wird nun eben illustriert. Wir
+            hoffen, daß es im Frühjahr oder Sommer <date>1944</date> im <rs type="org" ref="#propyläenverlag">Propyläenverlag</rs>,
+             <address>
+                        <addrLine>Berlin, Kochstraße</addrLine>
+                    </address>, erscheint. Jüngst erschien <rs type="person" ref="#kindermann_heinz">Prof. Dr. Kindermann</rs>
+             Abhandlung <rs type="work" ref="#hebbel_kindermann">"Hebbel und das Wiener Theater seiner Zeit"</rs> im <rs type="org" ref="#verlag_frick">Verlag Frick</rs>, <geogName>Wien</geogName>, I., Graben.
              Im <rs type="org" ref="#verlag_frick">gleichen Verlag</rs> wird zu <date when="1943-12-25">Weihnachten</date> in ähnlicher bebilderter Ausstattung seine Abhandlung
              <rs type="work" ref="#hölderlin_kindermann">"Hölderlin und das deutsche Theater"</rs> herauskommen. Endlich ist auch die Neuauflage von <rs type="person" ref="#kindermann_heinz">Kindermanns</rs> Biographie über den Wiener
              Volksdramatiker und Volksdarsteller <rs type="person" ref="#raimund_ferdinand">Ferdinand Raimund</rs> im <rs type="org" ref="#wiener_verlag">Wiener
-             Verlag</rs>, Wien, XII., Niederhofstraße 57, erschienen. Dort wird im
+             Verlag</rs>, <address>
+                        <addrLine>Wien, XII., Niederhofstraße 57</addrLine>
+                    </address>, erschienen. Dort wird im
                <date when="1944-01">Januar</date> auch eine Neuauflage von <rs type="person" ref="#kindermann_heinz">Kindermanns</rs> "Geschichte des
              Burgtheaters" erscheinen.</p>
+            <p>In den theatergeschichtlichen Forschungen aber dieser vom
+               Zentralinstitut herausgegebenen Sammlung theaterwissenschaftlicher
+            Abhandlungen werden ebenfalls einige wichtige Bände vorbereitet.
+            So etwa <rs type="person" ref="#rommel_otto">Dr. Otto Rommels</rs> umfangreiche und völlig neues Material
+               fördernde Untersuchung <rs ref="der_wienerische_hans_wurst" type="work">Der Wienerische Hans Wurst in europäischer Beleuchtung</rs>,
+               <rs type="person" ref="frank_eduard">Dr. Eduard Franks</rs> Arbeit über Schlenther
+               als <roleName>Burgtheaterdirektor</roleName>, <rs type="person" ref="#pilger_else">Dr. Else Pilgers</rs> <rs type="work" ref="#arbeit_bernhard_shaw">Arbeit über Bernhard Shaw</rs>
+            auf der deutschen Bühne und andere mehr (<rs type="org" ref="#verlag_matthiesen">Verlag Dr. Matthiesen</rs>, 
+               <address>
+                        <rs type="place" ref="#berlin">Berlin SW 68,</rs> <addrLine>Ritterstraße 77</addrLine>
+                    </address>). Die Zahl der Studierenden der
+            Theaterwissenschaft hat sich seit dem letzten Semester dadurch be</p>
+            
+            <pb n="3"/>
+            <p>trächtlich erhöht, daß aus vielen bombenbeschäftigten Städten Studierende
+             dieses Fachs sich nun ebenfalls hier einfinden.</p>
+            <p>Auch der Kreis der Lehrenden ist dadurch erweitert worden,
+               daß der <roleName>Reichserziehungsminister</roleName> dem <roleName>Leiter</roleName> der <rs type="org" ref="#max_reinhardt_seminar">Schauspielschule
+               des Burgtheaters</rs>, <rs type="person" ref="#niederführ_otto">Prof. Dr. Niederführ</rs>, einen Lehrauftrag für prak
+            tische Bühnenkunde im Rahmen des <rs type="org" ref="#zentralinstitut">Zentralinstituts</rs> erteilte. So
+            wird den Studierenden der Theaterwissenschaft in diesem Semester
+            folgendes angeboten:</p>
+            <p>"Deutsches und europäisches Theater des Mittelalters"</p>
+            <p>Vorlesung von <rs type="person" ref="#kindermann_heinz">Prof. Dr. Kindermann</rs>
+                </p>
+            <p>"Wesen und Geschichte der Regie", Übungen der Oberstufe</p>
+            <p>
+                    <rs type="person" ref="#kindermann_heinz">Prof. Dr. Kindermann</rs>
+                </p>
+            <p>"Schauspielkunst des 19. Jahrhunderts", Übungen der Unterstufe</p>
+            <p>
+                    <rs type="person" ref="#kindermann_heinz">Prof. Dr. Kindermann</rs>
+                </p>
+            <p>Kolloquium über praktische Bühnenkunde <rs type="person" ref="#niederführ_otto">Prof. Dr. Niederführ</rs>
+                </p>
+            <p>Kolloquium über praktische Dramaturgie <rs type="person" ref="#börge_vagn">Dozent Dr. Börge</rs>
+                </p>
+            <p>Einführung in die Dramaturgie des Films <rs type="person" ref="#börge_vagn">Dozent Dr. Börge</rs>
+                </p>
+            <p>Außerdem wird zum erstenmal in diesem Semester eine Ring
+            vorlesung für künftige Kunstbetrachter gehalten, die an alle am
+            Theaterwesen interessierten Hochschulen Wiens führt. Sie begann
+            bei <rs type="person" ref="#kindermann_heinz">Prof. Dr. Kindermann</rs> (Einführung in das Wesen der Theater
+            kritik), führt dann an die <rs type="org" ref="#akademie_der_bildenden_kuenste">Akademie der bildenden Künste</rs>, wo <rs type="person" ref="#pirchan_emil">Prof.
+               Pirchan</rs> in das Wesen der Bühnenbildnerei, <roleName type="degree" full="yes">Dozent Lutze</roleName> in die
+            Theaterbaukunst der Vergangenheit und Gegenwart, <rs type="person" ref="#gregor_joseph">Prof. Gregor</rs>
+               in den Aufbau der <rs type="org" ref="#theatersammlung_nationalbibliothek">Theatersammlung der Nationalbibliothek</rs> ein
+            führt. Dann folgt die <rs type="org" ref="#technische_hochschule_wien">Technische Hochschule</rs>, wo <rs type="person" ref="#grom-rottmayer_hermann">Prof. Grom-Rott
+            mayer</rs> die Theatermaschinerie und besonders die Theaterbeleuch
+            tungskunst erläutert. Sodann führt <rs type="person" ref="#niedermoser_">Prof. Niedermoser</rs> an der <rs type="org" ref="#hochschule_angewandte_kunst">Hoch
+            schule für angewandte Kunst</rs> in die Kostümkunde ein, und <rs type="person" ref="#niederführ_otto">Prof.
+               Niederführ</rs> gewährt Einblick in den Aufbau der <rs type="org" ref="#max_reinhardt_seminar">Schauspielschule
+               des Burgtheaters</rs>. Führungen in die Bühnenhäuser des <rs type="org" ref="#burgtheater">Burgtheaters</rs>
+            und der <rs type="org" ref="#staatsoper">Staatsoper</rs> ergänzen diesen Kurs.</p>
+            <p>Zu unserer Freude hat uns die <roleName>Leitung</roleName> des <rs type="org" ref="#burgtheater">Burgtheaters</rs> für
+               60 Studierende Karten für alle Generalproben des <rs type="org" ref="#burgtheater">Burgtheaters</rs> zur
+            Verfügung gestellt.</p>
+            <p>Auch die studentische Fachschaft für Theaterwissenschaft ist in
+            dessen unter der <roleName>Leitung</roleName> von <rs type="person" ref="#ulrich_">stud. phil. Ulrich</rs> ins Leben getreten.
+            Sie wird ihre besonderen Veranstaltungen im Rahmen des Instituts
+            durchführen. So wird in ihrem Rahmen zunächst der <rs type="person" ref="#wurm_ernst">Kunstschrift
+               leiter Ernst Wurm</rs> über "<rs type="person" ref="#george_heinrich">George</rs> und <rs type="person" ref="#gründgens_gustaf">Gründgens</rs>" sprechen. Im
+            Januar wird die <rs type="person" ref="#bahr-mildenburg_anna">Kammersängerin Anna Bahr-Mildenburg</rs> mit einem
+            musikalisch illustrierten Vortrag "Musikalische Darstellungskunst
+            von <rs type="person" ref="#gluck_christoph">Gluck</rs> bis <rs type="person" ref="#strauß_richard">Richard Strauß</rs>" folgen.</p>
+            <p>Das <rs type="org" ref="#zentralinstitut">Zentralinstitut</rs> selbst führt in diesem Semester seine gro
+            ßen, allgemein zugängichen Sonderveranstaltungen im Auditorium
+            maximum durch. Im November sprach da vor vollbesetztem Saal</p>
+            
+            <pb n="4"/>
+            <p>und unter größter Zustimmung <rs type="person" ref="#kayssler_friedrich">Staatsschauspieler Friedrich Kayssler</rs>
+            über "Das Wesen der Schauspielkunst". Im Dezember wird <rs type="person" ref="#pirchan_emil">Prof.
+               Pirchan</rs> über "Die Künste des Bühnenbildes" berichten. Im Januar
+               wird der <roleName>Oberspielleiter</roleName> der <rs type="org" ref="#staatsoper">Wiener Oper</rs>, <rs type="person" ref="#schuh_oskar">Oskar F. Schuh</rs>, "Mo
+            derne Probleme der Opernregie" behandeln.</p>
+            
+            
           
          </div>
       </body>
