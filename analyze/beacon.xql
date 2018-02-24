@@ -8,7 +8,7 @@ declare namespace tei = "http://www.tei-c.org/ns/1.0";
 declare namespace gefx = "http://gexf.net/data/hello-world.gexf";
 declare namespace util = "http://exist-db.org/xquery/util";
 
-declare option exist:serialize "method=text media-type=text";
+declare option exist:serialize "method=text media-type=text encoding=utf-8";
 
 let $root := "https://rundbriefe-app.acdh.oeaw.ac.at/"
 
@@ -21,7 +21,8 @@ let $items :=
     for $x in doc($app:personIndex)//tei:person[starts-with(./tei:idno/text(), 'http://d-nb')]
         let $ownId := data($x/@xml:id)
         let $url := $root||'pages/hits.html?searchkey='||$ownId
-        let $entry :=$x/tei:idno/text()||'|'||$url
+        let $idno := $x/tei:idno[1]/text()
+        let $entry :=$x/tei:idno[1]/text()||'|'||$url
     return $entry
 let $beacon := string-join(($prefix, $items), '&#10;')
     return $beacon
