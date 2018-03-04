@@ -88,7 +88,7 @@ let $name := functx:substring-after-last(document-uri(root($node)), '/')
 };
 
 (:~
-: returns the concatenated child nodes of a fetched placeName or persName element.
+: renders the name element of the passed in entity node as a link to entity's info-modal.
 :)
 declare function app:nameOfIndexEntry($node as node(), $model as map (*)){
 
@@ -104,6 +104,12 @@ declare function app:nameOfIndexEntry($node as node(), $model as map (*)){
         else if (contains(node-name($hit), 'place'))
         then
             <a class="reference" data-type="listplace.xml" data-key="{$searchkey}">{normalize-space(string-join($hit/tei:placeName[1], ', '))}</a>
+        else if (contains(node-name($hit), 'org'))
+        then
+            <a class="reference" data-type="listorg.xml" data-key="{$searchkey}">{normalize-space(string-join($hit/tei:orgName[1], ', '))}</a>
+        else if (contains(node-name($hit), 'bibl'))
+        then
+            <a class="reference" data-type="listwork.xml" data-key="{$searchkey}">{normalize-space(string-join($hit/tei:title[1], ', '))}</a>
         else
             functx:capitalize-first($searchkey)
     return
