@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
@@ -41,10 +40,10 @@
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listplace.xml" xpointer="listplace">
                <fallback xmlns="http://www.w3.org/2001/XInclude">File to include couldn't be found</fallback>
             </xi:include>
-            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml" xpointer="listorg">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml"  xpointer="listorg">
                <fallback xmlns="http://www.w3.org/2001/XInclude">File to include couldn't be found</fallback>
             </xi:include>
-            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listwork.xml" xpointer="listwork">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listwork.xml"  xpointer="listwork">
                <fallback xmlns="http://www.w3.org/2001/XInclude">File to include couldn't be found</fallback>
             </xi:include>
          </p>
@@ -53,7 +52,8 @@
    <text>
       <body>
          <pb n="1"/>
-         <head type="main" style="text-align:center" rend="underline">Rundbrief des <rs ref="#zentralinstitut">Zentralinstituts für Theaterwissenschaft</rs> an der
+         <head type="main" style="text-align:center" rend="underline">Rundbrief des <rs
+               ref="#zentralinstitut">Zentralinstituts für Theaterwissenschaft</rs> an der
             Universität <hi rend="letterspace">Wien</hi>.</head>
          <head type="sub">
             <date when="1944-08-01">August 1944</date>
@@ -92,7 +92,8 @@
                zwei weitere Räume: den Loewe-Raum und den Wildbrandt-Baudius-Raum (beide mit schö-
                nen Bildern dieser Künstler geziert), in Verwendung zu nehmen.</p>
             <p>Nun zunächst ein Bild dessen, was den Studierenden in Vorlesungen, Seminarübungen und
-               Kolloquien geboten wurde. Das dreistündige Hauptkolleg von <rs type="person" ref="#kindermann_heinz">Prof. Dr. Heinz Kindermann</rs>, das nun im schönen großen
+               Kolloquien geboten wurde. Das dreistündige Hauptkolleg von <rs type="person"
+                  ref="#kindermann_heinz">Prof. Dr. Heinz Kindermann</rs>, das nun im schönen großen
                Auditorium maximum der Universität stattfindet und meist von instruktiven
                Lichtbildern begleitet ist, behandelte diesmal <rs type="work">„Das deutsche und
                   europäische Theater der Renaissancezeit"</rs>. Im Gegensatz zu den Mysterien und

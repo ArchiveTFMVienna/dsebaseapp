@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
@@ -46,19 +45,23 @@
       </fileDesc>
       <encodingDesc>
          <p>
-            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listperson.xml" xpointer="listperson">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listperson.xml"
+               xpointer="listperson">
                <fallback xmlns="http://www.w3.org/2001/XInclude">File to include couldn't be
                   found</fallback>
             </xi:include>
-            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listplace.xml" xpointer="listplace">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listplace.xml"
+               xpointer="listplace">
                <fallback xmlns="http://www.w3.org/2001/XInclude">File to include couldn't be
                   found</fallback>
             </xi:include>
-            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml" xpointer="listorg">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml"
+               xpointer="listorg">
                <fallback xmlns="http://www.w3.org/2001/XInclude">File to include couldn't be
                   found</fallback>
             </xi:include>
-            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listwork.xml" xpointer="listwork">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listwork.xml"
+               xpointer="listwork">
                <fallback xmlns="http://www.w3.org/2001/XInclude">File to include couldn't be
                   found</fallback>
             </xi:include>
@@ -68,11 +71,9 @@
    <text>
       <body>
          <pb n="1"/>
-         <head type="main" style="text-align:center">
-                <hi rend="underline">Rundbrief</hi>
+         <head type="main" style="text-align:center"><hi rend="underline">Rundbrief</hi>
             <lb/>
-            des <rs ref="#zentralinstitut">Zentralinstituts für Theaterwissenschaft</rs> an der <rs ref="#universitaet_wien" type="org">Universität <hi rend="letterspace">Wien</hi>
-                </rs>.
+            des <rs ref="#zentralinstitut">Zentralinstituts für Theaterwissenschaft</rs> an der <rs ref="#universitaet_wien" type="org">Universität <hi rend="letterspace">Wien</hi></rs>.
          </head>
          <head type="sub">
             <date when="1944-12">Dezember 1944.</date>
@@ -114,9 +115,9 @@
                Mittagsstunden fallende Alarme wurde diesmal auch die 
                Hauptvorlesung auf Nachmittag verlegt. Auch finden diese 
                Vorlesungen nicht mehr, wie bisher, im
-               <placeName type="room">Auditorium Maximum</placeName>, sondern im schönen
-               <placeName type="room">Kainzraum, also dem eigenen Hörsaal des Zentralinstituts in
-                  der Hofburg</placeName> statt, der zu diesem Zweck mit einem 
+               <rs ref="#universitaet_wien" type="org">Auditorium Maximum</rs>, sondern im schönen
+               <rs ref="#zentralinstitut" type="org">Kainzraum, also dem eigenen Hörsaal des Zentralinstituts in
+                  der Hofburg</rs> statt, der zu diesem Zweck mit einem 
                Projektionsapparat ausgestattet wurde.
             </p>
             <p>Viele von den Fernbetreuten - und ihre 
@@ -153,9 +154,7 @@
                wo sie einmal aufhören mussten.
             </p>
             <p>In diesem <date>Wintersemester 1944/45</date> hält 
-               <hi rend="underline">
-                        <rs ref="#kindermann_heinz" type="person" subtype="acting">Prof. Kindermann</rs>
-                    </hi> ein dreistündiges Hauptkolleg 
+               <hi rend="underline"><rs ref="#kindermann_heinz" type="person" subtype="acting">Prof. Kindermann</rs></hi> ein dreistündiges Hauptkolleg 
                über <hi rend="underline">"Das deutsche und europäische Barockheater"</hi>. 
                Im Proseminar wird diesmal die <hi rend="underline">Geschichte des 
                   Bühnenbildes</hi> in einer Reihe von Referaten
@@ -169,8 +168,7 @@
                genauere Berichte und Inhaltsangaben über den Verlauf 
                des Hauptkollegs und der Seminare vorlegen.
             </p>
-            <p>
-                    <rs ref="#börge_vagn" type="person" subtype="acting">Dozent Dr. Börge </rs>hält diesmal
+            <p><rs ref="#börge_vagn" type="person" subtype="acting">Dozent Dr. Börge</rs> hält diesmal
                sein dramaturgisches Kolloquium über <hi rend="underline">"Rollenpsychologie"</hi>.
                Daneben hält er ein filmkundliches Kolloqium über den 
                <hi rend="underline">"Film als Gesamtkunstwerk"</hi>. Dazu kommt seine 
@@ -180,10 +178,7 @@
                erster Teil in diesem Semester mit der Entwicklung von 
                <rs ref="#kalidasa" type="person" subtype="mentioned">Kalidasa</rs> bis <rs ref="#shakespeare_william" type="person" subtype="mentioned">Shakespeare</rs> befasst ist.
             </p>
-            <p>
-                    <hi rend="underline">
-                        <rs ref="#niederführ_otto" type="person" subtype="acting">Prof. Niederführ</rs>
-                    </hi> widmete sein in zwei 
+            <p><hi rend="underline"><rs ref="#niederführ_otto" type="person" subtype="acting">Prof. Niederführ</rs></hi> widmete sein in zwei 
                Stufen durchgeführtes Kolloquium über praktische
                Bühnenkunde diesmal Problemen der <hi rend="underline">Regiebuch-Gestaltung und</hi>
                des <hi rend="underline">Spielplan - Aufbaues.</hi> Auch über den Verlauf der
@@ -207,8 +202,8 @@
                im <date when="1944-01">Januar</date> beginnen. Doch wurde wenigstens ein Vortrag
                schon vorweggenommen, der zugleich als Sonderveranstaltung galt, ein Vortrag von dem
                bekannten <roleName>Bühnenbildner</roleName>
-               <rs ref="#niedermoser_" type="person" subtype="acting">Prof. <hi rend="underline">Niedermoser</hi>
-                    </rs> (<orgName type="university">Reichshochschule für
+               <rs ref="#niedermoser_" type="person" subtype="acting">Prof. <hi rend="underline"
+                     >Niedermoser</hi></rs> (<orgName type="university">Reichshochschule für
                   angewandte Kunst</orgName>), von dem unten gleich genauer die Rede sein wird.
             </p>
             <p>Unsere besonderen Veranstaltungen werden 
@@ -222,8 +217,7 @@
                   bekannte junge Vortragskünstlerin</rs>, die <rs ref="#zentralinstitut" type="org">unserm 
                      Institut</rs> als Mitglied angehört) <rs ref="#goethe_johann" type="person" subtype="mentioned">Goethes</rs> <rs ref="#hans_sachsens_poetische_sendung" type="work">Hymnus "Hans 
                         Sachsens poetische Sendung"</rs>. Dann nahm <rs ref="#kindermann_heinz" type="person" subtype="acting">Prof. 
-                           <hi rend="underline">Kindermann</hi>
-                    </rs> das Wort zu seinem Einführungsvortrag über 
+                           <hi rend="underline">Kindermann</hi></rs> das Wort zu seinem Einführungsvortrag über 
                "Hans Sachs und das deutsche Theater", in dem er 
                etwa ausführte:"
             </p>
@@ -290,8 +284,7 @@
                   Revue menschlicher Schwäche und Torheiten im 
                   Spiegel germanisch - deutscher Sicht zusammen.
                </p>
-               <p>
-                        <rs ref="#sachs_hans" type="person" subtype="mentioned">Der Nürnberger Schneidersohn Hans Sachs</rs> war 
+               <p><rs ref="#sachs_hans" type="person" subtype="mentioned">Der Nürnberger Schneidersohn Hans Sachs</rs> war 
                   dabei nicht bloss auf den Horizont seiner
                   Vaterstadt angewiesen. Dieser Nürnberger Horizont des 
                   <date notBefore="1500-01-01" notAfter="1599-12-31">16.Jahrhunderts</date> war freilich allein schon reich 
@@ -458,8 +451,7 @@
                   ernst gemeinte Spiel mehr improvisierten als 
                   zelebrierten. <date notBefore="1600-01-01" notAfter="1699-12-31">Noch bis tief ins 17. Jhdt.</date> hinein reicht 
                   diese erste Wirkung, bis dann die hochbarocke 
-                  Kunstdichtung sich seit <rs ref="#peter_squentz" type="work">
-                            <rs ref="#gryphius_andreas" type="person">Gryphius</rs> "Peter Squentz"</rs> über 
+                  Kunstdichtung sich seit <rs ref="#peter_squentz" type="work"><rs ref="#gryphius_andreas" type="person">Gryphius</rs> "Peter Squentz"</rs> über 
                   dieses Handwerkertheater lustig macht. Aber auch diese 
                   Polemik, richtet sich eigentlich nur gegen das 
                   Unzulängliche des tragischen Handwerkertheaters, nicht 
@@ -560,8 +552,7 @@
             <fw type="pageNum" place="top-centre">– 13 –</fw>
             <p>Für eine zweite Sonderveranstaltung hatte 
                das <rs ref="#zentralinstitut" type="org">Zentralinstitut</rs>, wie schon zuvor erwähnt, 
-               <rs ref="#niedermoser_" type="person">Prof. <hi rend="underline">Niedermoser</hi>
-                    </rs> eingeladen. Er sprach über das 
+               <rs ref="#niedermoser_" type="person">Prof. <hi rend="underline">Niedermoser</hi></rs> eingeladen. Er sprach über das 
                wichtige Thema <hi rend="underline">"Die Inszenierungskunst auf dem 
                   Theater und im Film".</hi> Verbindendes und Trennendes.
             </p>
@@ -621,8 +612,7 @@
                   über).</item>
                </list>
             </p>
-            <p>
-                    <rs ref="#niedermoser_" type="person">Prof. Niedermoser</rs> schnitt nun noch 
+            <p><rs ref="#niedermoser_" type="person">Prof. Niedermoser</rs> schnitt nun noch 
                einzelne technische Fragen an, die sich mit der 
                praktischen Durchführung des Schnittes befassten.
             </p>
@@ -634,13 +624,11 @@
                des theatralischen Raumes - Tatsächlichkeitsdeutung 
                ist die Aufgabe der Leinwand.
             </p>
-            <p>
-                    <rs ref="#niedermoser_" type="person">Prof. Niedermoser</rs> illustrierte diese 
+            <p><rs ref="#niedermoser_" type="person">Prof. Niedermoser</rs> illustrierte diese 
                Ausführungen durch Bilder aus den Entwürfen seiner 
                Studierenden zu den Stücken <rs ref="#napoleon_hundert_tage" type="work">"Napoleon oder die 
                hundert Tage"</rs>, die theatralisch gelöst waren, und 
-               zu <rs ref="#pole_poppenspaeler" type="work">
-                        <rs ref="#storm_theodor" type="person">Storms</rs> Novelle "Pole Poppenspäler"</rs>, die 
+               zu <rs ref="#pole_poppenspaeler" type="work"><rs ref="#storm_theodor" type="person">Storms</rs> Novelle "Pole Poppenspäler"</rs>, die 
                filmisch gestaltet waren.
             </p>
             <p>Um nun aber gerade die Studierenden der 
@@ -659,16 +647,60 @@
                Bühne"</hi>. Der erste dieser Abende fand am <date when="1944-11-14">14.November</date> 
                im Kainzraum statt. Nach einer kurzen Einführung 
                von <rs ref="#kindermann_heinz" type="person">Prof. Kindermann</rs> las <rs ref="#herterich_franz" type="person">Oberregisseur Franz 
-               <hi rend="underline">Herterich</hi>
-                    </rs> (<rs ref="#burgtheater" type="org">Burgtheater</rs>) eine Reihe der überaus 
-               anschaulichen dämonenerfüllten Kapitel aus dem <rs ref="#faust_volksbuch" type="work">
-                        <rs ref="#spies_johann" type="person">Spies'schen</rs> 
+               <hi rend="underline">Herterich</hi></rs> (<rs ref="#burgtheater" type="org">Burgtheater</rs>) eine Reihe der überaus 
+               anschaulichen dämonenerfüllten Kapitel aus dem <rs ref="#faust_volksbuch" type="work"><rs ref="#spies_johann" type="person">Spies'schen</rs> 
                Faust-Volksbuch</rs> des <date notBefore="1500-01-01" notAfter="1599-12-31">16. Jahrhunderts</date>, dieser ersten 
                dichterischen Gestaltung des Vorwurfs. Dann wurden 
-               
+               unter Mitwirkung der Burgschauspieler <hi rend="underline"><rs ref="#eybner_richard" type="person">Eybner</rs></hi>, 
+               <hi rend="underline"><rs ref="#haeussermann_" type="person">Haeussermann</rs></hi>, <hi rend="underline"><rs ref="#herterich_franz" type="person">Herterich</rs></hi> und <hi rend="underline"><rs ref="#schmidt_wilhelm">Schmidt</rs></hi> wichtigste 
+               Szenen aus <rs ref="#faust_marlowe" type="work"><rs ref="#marlowe_christopher" type="person">Marlowes</rs> "Faust"</rs>, dieser von den Wanderbühnen 
+               des <date notBefore="1600-01-01" notAfter="1699-12-31">17. Jahrhunderts</date> vielgespielten ersten 
+               theatralischen Gestaltung des Vorwurfs und zum Schluss 
+               einige köstliche Auftritte aus jenem <rs ref="faust_puppenspiel" type="work">alten Faust-
+               Puppenspiel</rs> gelesen, das noch <rs ref="#goethe_johann" type="person">der Knabe Goethe</rs> in 
+               <rs ref="#frankfurt_main" type="place">Frankfurt</rs> selbst spielte. Sprach aus dem <rs ref="#faust_volksbuch" type="work">Volksbuch</rs> 
+               das Schaudern des frommen Erzählers über den 
+               Erzzauberer, der freventlich trachtete, "das zu lieben, 
+               das nicht zu lieben war" und von dem er doch geheim 
+               bewundernd berichten musste: "dem tracht er Tag und 
+               Nacht nach und nahm an sich Adlersflügel", so stieg 
+               aus den Szenen von <rs ref="#faust_marlowe" type="work"><rs ref="#marlowe_christopher" type="person">Marlowes</rs> "Faust"</rs> der Geist der 
+               Renaissance empor, der Persönlichkeitskult dieses 
+               Zeitalters, das das Ungewöhnliche nicht mehr fürchtete, 
+               sondern emporhob. Sprach aus dem <rs ref="#faust_volksbuch" type="work">Volksbuch</rs> 
+               indirekt der Suchende, der die allzu engen Grenzen des 
+               Irdischen wenigstens durchschauen oder überlisten 
+               möchte - <rs ref="#faust_marlowe" type="work">der Faust <rs ref="#marlowe_christopher" type="person">Marlowes</rs></rs> will diese Grenzen 
+               durchstossen. Schon schlägt er sich, wie dann <rs ref="#faust_I">der 
+               Goethesche</rs>, in seinem Anfangsmonolog mit den einzelnen 
+               Fakultäten herum und findet, da sie alle ihm nicht 
+               <pb n="16"/>
+               <fw type="pageNum" place="top-centre">– 16 –</fw>
+               genügen können, den Weg zu Magie, um - typisch für 
+               Renaissance und Barock - zur Macht zu gelangen. Er 
+               verschreibt seine Seele der Hölle, um die Schätze 
+               <rs ref="#indien" type="place">Indiens</rs> zu erringen, um <rs ref="#deutschland" type="place">Deutschland</rs> mit ehernen 
+               Mauern zu umgeben, um <rs ref="#italien" type="place">Italien</rs> zu erobern. Auf einem 
+               geflügelten Drachen fährt er durch die Luft und 
+               führt den Grossen der Erde seine Künste vor. <rs ref="#faust_marlowe" type="work">Dieses 
+               Faustdrama <rs ref="#marlowe_christopher" type="person">Marlowes</rs></rs> wurde von <rs ref="#graz" type="place">Graz</rs> bis <rs ref="#danzig" type="place">Danzig</rs> 
+               in allen grossen Städten <rs ref="#deutschland" type="place">Deutschlands</rs> zur Barockzeit 
+               gespielt. Unsere Burgschauspieler lasen mit 
+               wundersamer Versenkung in diese dunkle und 
+               zugleich so herrschsüchtige Welt die Anfangsszenen: 
+               Faust (<rs ref="#herterich_franz" type="person">Herterich</rs>) in der Studierstube in seinen 
+               Auseinandersetzungen mit Mephistopheles (<rs ref="#eybner_richard" type="person">Eybner</rs>) 
+               und mit dem bösen und guten Engel (die beiden 
+               Engel wurden von den Institutsmitgliedern <rs ref="#gerstner_" type="person">Gerstner</rs> 
+               und <rs ref="#rohner_" type="person">Rohner</rs> gelesen), weil gerade sie, bis hin zu 
+               dem Augenblick, da Mephisto Faust das Zauberbuch 
+               überreicht, das ihm die schrankenlose Gewalt über 
+               die Welt eröffnet, den Vergleich mit <rs ref="#goethe_johann" type="person">Goethe</rs> 
+               besonders nahelegen.
             </p>
+            
+            
          </div>
-         
          
          <div type="letter" n="2">
             <fw type="pageNum" place="top-centre">– 26 –</fw>
@@ -692,7 +724,7 @@
                nicht mehr möglich, die geplanten
                Veranstaltungen in diesem Semester voll durchzufürhen. Aber auch 
                hier hat sich ein Ausgleich finden lassen, indem 
-               die <rs ref="#fachschaft_theater" type="org">Fachschaft</rs> Theater in Kulturabenden die 
+               die <rs ref="#fachschaft_theater" type="org">Fachschaft Theater</rs> in Kulturabenden die 
                kulturelle und schöngeistige Betreuung der Studierenden 
                und der im Rüstungseinsatz stehenden Kollegen 
                aufnimmt. Die Kulturabende, die in diesem 

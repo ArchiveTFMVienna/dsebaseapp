@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
@@ -229,6 +230,55 @@
                   <geo decls="LatLng">50.885071 12.080720</geo>
                </location>
                <idno type="URL">http://d-nb.info/gnd/4020295-1</idno>
+            </place>
+            <place xml:id="frankfurt_main" type="city">
+               <placeName>Frankfurt am Main</placeName>
+               <location>
+                  <geo decls="LatLng">50.11552 8.68417</geo>
+               </location>
+               <idno type="URL">http://www.geonames.org/2925533</idno>
+            </place>
+            <place xml:id="indien" type="country">
+               <placeName>Indien</placeName>
+               <location>
+                  <geo decls="LatLng">22 79</geo>
+               </location>
+               <idno type="URL">http://www.geonames.org/1269750</idno>
+            </place>
+            <place xml:id="deutschland" type="country">
+               <placeName>Deutschland</placeName>
+               <location>
+                  <geo decls="LatLng">51.5 10.5</geo>
+               </location>
+               <idno type="URL">http://www.geonames.org/2921044</idno>
+            </place>
+            <place xml:id="italien" type="country">
+               <placeName>Italien</placeName>
+               <location>
+                  <geo decls="LatLng">42.83333 12.83333</geo>
+               </location>
+               <idno type="URL">http://www.geonames.org/3175395</idno>
+            </place>
+            <place xml:id="graz" type="city">
+               <placeName>Graz</placeName>
+               <location>
+                  <geo decls="LatLng">47.06667 15.45</geo>
+               </location>
+               <idno type="URL">http://www.geonames.org/2778067</idno>
+            </place>
+            <place xml:id="danzig" type="city">
+               <placeName>Danzig</placeName>
+               <location>
+                  <geo decls="LatLng">54.35250 18.64637</geo>
+               </location>
+               <idno type="URL">http://www.geonames.org/3099434</idno>
+            </place>
+            <place xml:id="bonn" type="city">
+               <placeName>Bonn</placeName>
+               <location>
+                  <geo decls="LatLng">50.73438 7.09549</geo>
+               </location>
+               <idno type="URL">http://www.geonames.org/2946447</idno>
             </place>
          </listPlace>
       </body>

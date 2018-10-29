@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -16,7 +17,9 @@
         </fileDesc>
         <encodingDesc>
             <p>
-                <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="listplace.xml" xpointer="listplace">
+                <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                    href="listplace.xml"
+                    xpointer="listplace">
                     <fallback xmlns="http://www.w3.org/2001/XInclude">File to include couldn't be found</fallback>
                 </xi:include>
             </p>
@@ -54,9 +57,13 @@
                         <orgName>Wiener Verlag</orgName>
                         <idno type="URL">http://d-nb.info/gnd/10074501-5</idno>
                     </org>
+                    <org xml:id="holzhausens">
+                        <orgName>Adolf Holzhausens Nachfolger</orgName>
+                        <idno type="URL">http://d-nb.info/gnd/1073079473</idno>
+                    </org>
                     <org xml:id="gesellschaft_für_wiener_theatergeschichte">
                         <orgName>Gesellschaft für Wiener Theatergeschichte</orgName>
-                        <idno type="URL"/>
+                        <idno type="URL"></idno>
                     </org>
                     <org xml:id="stadtbibliothek">
                         <orgName>Stadtbibliothek</orgName>
@@ -70,7 +77,7 @@
                     </org>
                     <org xml:id="fachschaft_theater">
                         <orgName>Fachschaft Theater am Zentralinstitut für Theaterwissenschaft der Universität Wien</orgName>
-                        <idno type="URL"/>
+                        <idno type="URL"></idno>
                     </org>
                     <org xml:id="deutsches_volkstheater">
                         <orgName>Deutsches Volkstheater</orgName>
@@ -103,8 +110,7 @@
                     <org xml:id="max_reinhardt_seminar">
                         <orgName>Max Reinhardt Seminar</orgName>
                         <orgName type="alt">Institut für Schauspiel- und Schauspielregie</orgName>
-                        <orgName type="alt">
-                            <rs type="place" ref="#schoenbrunn">Schönbrunner</rs> Schauspiel- und
+                        <orgName type="alt"><rs type="place" ref="#schoenbrunn">Schönbrunner</rs> Schauspiel- und
                             Regieseminar</orgName>
                         <orgName type="alt">Schauspielschule des Burgtheaters</orgName>
                         <idno type="URL">http://d-nb.info/gnd/10091007-5</idno>
@@ -141,8 +147,7 @@
                         <idno/>
                     </org>
                     <org xml:id="theaterwissenschaftliches_institut_hannover">
-                        <orgName>Theaterwissenschaftliches Institut an der <rs type="org" ref="#technische_hochschule_hannover">Technischen Hochschule Hannover</rs>
-                        </orgName>
+                        <orgName>Theaterwissenschaftliches Institut an der <rs type="org" ref="#technische_hochschule_hannover">Technischen Hochschule Hannover</rs></orgName>
                         <idno/>
                     </org>
                     <org xml:id="theatersammlung_nationalbibliothek">

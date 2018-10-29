@@ -123,9 +123,9 @@
                                             <td>no license provided</td>
                                         </xsl:otherwise>
                                     </xsl:choose>
-                                </tr> 
-                            
-                            
+                                </tr>
+
+
                         </tbody>
                     </table>
                     <div class="panel-footer">
@@ -171,8 +171,8 @@
                 <div>
                     <xsl:apply-templates select="//tei:text"/>
                 </div>
-                
-                
+
+
             </div>
             <div class="panel-footer">
                 <p style="text-align:center;">
@@ -204,7 +204,7 @@
     ###  Formatierung ###
     #####################
 -->
-    
+
     <xsl:template match="tei:term">
         <span/>
     </xsl:template>
@@ -464,6 +464,6 @@
         </xsl:element>
     </xsl:template>
     <xsl:template match="tei:fw">
-        
+
     </xsl:template>
 </xsl:stylesheet>
