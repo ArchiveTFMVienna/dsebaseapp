@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <title data-template="config:app-title">App Title</title>
@@ -9,8 +8,8 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"/>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"/>
         <link rel="stylesheet" type="text/css" href="$app-root/resources/css/style.css"/>
-
-
+        
+        
         <!--scroll to top start-->
         <link rel="stylesheet" href="../resources/js/scroll-to-top/css/ap-scroll-top.min.css"/>
         <script src="../resources/js/scroll-to-top/js/ap-scroll-top.min.js"/>
@@ -22,112 +21,128 @@
             </script>
         <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js"/>
         <!-- End Cookie Consent plugin -->
+        <!-- Matomo -->
+        <script type="text/javascript">
+              var _paq = _paq || [];
+              /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+              _paq.push(['trackPageView']);
+              _paq.push(['enableLinkTracking']);
+              (function() {
+                var u="https://matomo.acdh.oeaw.ac.at/";
+                _paq.push(['setTrackerUrl', u+'piwik.php']);
+                _paq.push(['setSiteId', '107']);
+                var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+                g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+              })();
+            </script>
+        <!-- End Matomo Code -->
+        
     </head>
     <body id="body">
         <header>
             <nav class="navbar navbar-default" role="navigation">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"/>
-                    <span class="icon-bar"/>
-                    <span class="icon-bar"/>
-                </button>
-            </div>
-            <div class="navbar-collapse collapse" id="navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li class="dropdown" id="about">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Home</a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="index.html">Home</a>
-                            </li>
-                            <li>
-                                <a href="show.html?document=about.xml&amp;directory=meta&amp;stylesheet=meta">About this website</a>
-                            </li>
-                            <li>
-                                <a href="imprint.html">Imprint</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="dropdown" id="toc">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Table of Content</a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="toc.html?collection=editions">Collection Editions</a>
-                            </li>
-                            <li>
-                                <a href="toc.html?collection=indices">Collection Indices</a>
-                            </li>
-                            <li>
-                                <a href="toc.html?collection=meta">Collection Meta</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Indices</a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="persons.html">Persons</a>
-                            </li>
-                            <li>
-                                <a href="places.html">Places</a>
-                            </li>
-                            <li>
-                                <a href="orgs.html">Organizations</a>
-                            </li>
-                            <li>
-                                <a href="bibl.html">Works</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Analyze</a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="timeline.html">Timeline</a>
-                            </li>
-                            <li>
-                                <a href="netvis.html">Network</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Data endpoints</a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="../../../../exist/restxq/rundbriefe-app/editions/xml">Text as XML</a>
-                            </li>
-                            <li>
-                                <a href="../../../../exist/restxq/rundbriefe-app/editions/json">Text as JSON</a>
-                            </li>
-                            <li>
-                                <a href="../../../../exist/restxq/rundbriefe-app/dt/editions/json">Datatables API-Endpoint</a>
-                            </li>
-                            <li>
-                                <a href="../analyze/cmfi2net.xql">Network Data (GEFX)</a>
-                            </li>
-                            <li>
-                                <a href="../analyze/beacon.xql">GND Beacon</a>
-                            </li>
-                            <li>
-                                <a href="../analyze/timeline.xql">Timeline</a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-                <div class="pull-right">
-                    <form method="get" action="ft_search.html" class="navbar-form" id="pageform">
-                        <div class="form-group">
-                            <div class="input-group">
-                                <input type="text" class="form-control" name="searchexpr" placeholder="Volltextsuche" pattern=".{3,}" required="" title="3 characters minimum"/>
-                            </div>
-                            <button type="submit" class="btn btn-primary">Search</button>
-                        </div>
-                    </form>
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"/>
+                        <span class="icon-bar"/>
+                        <span class="icon-bar"/>
+                    </button>
                 </div>
-            </div>
-        </nav>
+                <div class="navbar-collapse collapse" id="navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown" id="about">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Home</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="index.html">Home</a>
+                                </li>
+                                <li>
+                                    <a href="show.html?document=about.xml&amp;directory=meta&amp;stylesheet=meta">About this website</a>
+                                </li>
+                                <li>
+                                    <a href="imprint.html">Imprint</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown" id="toc">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Table of Content</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="toc.html?collection=editions">Collection Editions</a>
+                                </li>
+                                <li>
+                                    <a href="toc.html?collection=indices">Collection Indices</a>
+                                </li>
+                                <li>
+                                    <a href="toc.html?collection=meta">Collection Meta</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Indices</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="persons.html">Persons</a>
+                                </li>
+                                <li>
+                                    <a href="places.html">Places</a>
+                                </li>
+                                <li>
+                                    <a href="orgs.html">Organizations</a>
+                                </li>
+                                <li>
+                                    <a href="bibl.html">Works</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Analyze</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="timeline.html">Timeline</a>
+                                </li>
+                                <li>
+                                    <a href="netvis.html">Network</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Data endpoints</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="../../../../exist/restxq/rundbriefe-app/editions/xml">Text as XML</a>
+                                </li>
+                                <li>
+                                    <a href="../../../../exist/restxq/rundbriefe-app/editions/json">Text as JSON</a>
+                                </li>
+                                <li>
+                                    <a href="../../../../exist/restxq/rundbriefe-app/dt/editions/json">Datatables API-Endpoint</a>
+                                </li>
+                                <li>
+                                    <a href="../analyze/cmfi2net.xql">Network Data (GEFX)</a>
+                                </li>
+                                <li>
+                                    <a href="../analyze/beacon.xql">GND Beacon</a>
+                                </li>
+                                <li>
+                                    <a href="../analyze/timeline.xql">Timeline</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="pull-right">
+                        <form method="get" action="ft_search.html" class="navbar-form" id="pageform">
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" name="searchexpr" placeholder="Volltextsuche" pattern=".{3,}" required="" title="3 characters minimum"/>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Search</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </nav>
         </header>
         <section class="main-content">
             <div id="content" class="container"/>
@@ -153,7 +168,7 @@
                     </div>
                 </div>
             </div>
-
+            
             <script>/*script for loading the content of the modal */
                 $(document).ready(function(){
                     var trigger = $('a[data-type]');
@@ -168,12 +183,12 @@
                         });
                     });
                 });</script>
-                <script type="text/javascript">
+            <script type="text/javascript">
                 $(window).on('load', function(){
                     $('#myModal').modal('show');
                 });
         </script>
-        <!-- scroll-up-bottom -->
+            <!-- scroll-up-bottom -->
             <script type="text/javascript">
                    // http://www.jqueryscript.net/animation/jQuery-Plugin-For-Fixed-Positioned-Scroll-To-Top-Button-ap-scroll-top.html
                    // Setup plugin with default settings
@@ -183,7 +198,7 @@
                            }
                        });
             </script>
-        <!-- scroll-up-bottom end -->
+            <!-- scroll-up-bottom end -->
         </footer>
     </body>
 </html>
