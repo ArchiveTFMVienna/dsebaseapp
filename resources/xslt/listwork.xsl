@@ -14,18 +14,15 @@
     </xsl:variable>
     <xsl:template match="/">
         <xsl:if test="$entity">
-            <div class="modal" id="myModal" role="dialog">
+            <div class="modal" tabindex="-1" role="dialog" id="myModal">
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <xsl:choose>
                             <xsl:when test="$entity">
                                 <xsl:variable name="entity" select="//tei:bibl[@xml:id=$entiyID]"/>
                                 <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal">
-                                        <span class="fa fa-times"/>
-                                    </button>
                                     <h3 class="modal-title">
-                                        <xsl:value-of select="$entity"/>  
+                                        <xsl:value-of select="$entity/tei:title"/>  
                                     </h3>
                                     <h4>
                                         <a>
@@ -40,9 +37,15 @@
                                 <div class="modal-body">
                                     <table class="table table-boardered table-hover">
                                         <tr>
-                                            <th>Name</th>
+                                            <th>Title</th>
                                             <td>
-                                                <xsl:value-of select="//tei:bibl[@xml:id=$entiyID]"/>
+                                                <xsl:value-of select="//tei:bibl[@xml:id=$entiyID]/tei:title"/>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>Author</th>
+                                            <td>
+                                                <xsl:value-of select="//tei:bibl[@xml:id=$entiyID]/tei:author"/>
                                             </td>
                                         </tr>
                                         
@@ -58,14 +61,6 @@
                                                         </xsl:attribute>
                                                         <xsl:value-of select="$entity/tei:idno[@type='URL']/text()"/>
                                                     </a>
-                                                </td>
-                                            </tr>
-                                        </xsl:if>
-                                        <xsl:if test="$entity/tei:idno">
-                                            <tr>
-                                                <th>URL:</th>
-                                                <td>
-                                                    <xsl:value-of select="$entity/tei:idno/text()"/>
                                                 </td>
                                             </tr>
                                         </xsl:if>

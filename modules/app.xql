@@ -13,7 +13,7 @@ declare variable $app:indices := $config:app-root||'/data/indices';
 declare variable $app:placeIndex := $config:app-root||'/data/indices/listplace.xml';
 declare variable $app:personIndex := $config:app-root||'/data/indices/listperson.xml';
 declare variable $app:orgIndex := $config:app-root||'/data/indices/listorg.xml';
-declare variable $app:workIndex := $config:app-root||'/data/indices/listbibl.xml';
+declare variable $app:workIndex := $config:app-root||'/data/indices/listwork.xml';
 declare variable $app:defaultXsl := doc($config:app-root||'/resources/xslt/xmlToHtml.xsl');
 
 declare function functx:contains-case-insensitive
@@ -229,7 +229,7 @@ for $title in ($entities, $terms)
 declare function app:listPers($node as node(), $model as map(*)) {
     let $hitHtml := "hits.html?searchkey="
     for $person in doc($app:personIndex)//tei:body//tei:person
-    let $functions := $person//tei:roleName//text()
+    let $functions := string-join($person//tei:roleName//text(), ' ')
     let $idno := $person//tei:idno//text()
     let $name := if ($person/tei:persName/tei:surname)
         then $person/tei:persName/tei:surname/text()
@@ -365,12 +365,17 @@ return
 declare function app:listBibl($node as node(), $model as map(*)) {
     let $hitHtml := "hits.html?searchkey="
     for $item in doc($app:workIndex)//tei:listBibl/tei:bibl
+        let $title := $item//tei:title/text()
+        let $author := $item//tei:author//text()
+        let $idno := $item//tei:idno//text()
 
    return
         <tr>
             <td>
-                <a href="{concat($hitHtml,data($item/@xml:id))}">{$item/text()}</a>
+                <a href="{concat($hitHtml,data($item/@xml:id))}">{$title}</a>
             </td>
+            <td>{$author}</td>
+            <td>{$idno}</td>
         </tr>
 };
 
