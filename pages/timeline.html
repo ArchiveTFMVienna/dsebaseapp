@@ -16,15 +16,15 @@
         <div class="card">
             <div class="card-header" style="text-align:center;">
                 <h1>
-                    Zeitleiste
+                    Timeline
                 </h1>
                 <h3>
                     <a>
-                        <i class="fas fa-info" title="Info zum Personenregister" data-toggle="modal" data-target="#exampleModal"/>
+                        <i class="fas fa-info" title="Info" data-toggle="modal" data-target="#exampleModal"/>
                     </a>
                     |
                     <a href="../analyze/timeline.xql">
-                        <i class="fas fa-download" title="Zeige Daten"/>
+                        <i class="fas fa-download" title="Show the Data"/>
                     </a>
                 </h3>
             </div>
@@ -36,10 +36,10 @@
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title">Info zum Netzwerk</h5>
+                        <h5 class="modal-title">Info</h5>
                     </div>
                     <div class="modal-body">
-                        <p>Der Zeitstrahl listet alle Passagen mit zeitlichen Referenzen in den transkribierten Pustertaler Inventaren.</p>
+                        <p>The timeline displays all <code>tei:date</code> elements encoded in the transcibed Rundbriefe. Use <code>ctrl+shift</code> to zoom in and out.</p>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button>
@@ -69,7 +69,7 @@
         },
         orientation: 'top',
         start: new Date(1730,01,01),
-        end: new Date(1810, 01, 01)
+        end: new Date(1950, 01, 01)
         };
         var timeline = new vis.Timeline(container, data.item, options);
         });

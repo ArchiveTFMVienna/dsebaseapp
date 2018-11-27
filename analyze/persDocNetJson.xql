@@ -10,7 +10,7 @@ let $result :=
     <result>{
         
         for $doc at $pos in collection($app:editions)//tei:TEI
-            let $title := normalize-space($doc//tei:titleStmt/tei:title/text())
+            let $title := normalize-space($doc//tei:titleStmt/tei:title[@type="sub"]/text())
             return
                 <nodes>
                     <id>{$pos}</id>
@@ -75,7 +75,7 @@ let $result :=
         for $doc at $pos in collection($app:editions)//tei:TEI
             let $title := $doc//tei:titleStmt/tei:title[@type='sub']
             let $docID := $pos
-            for $person in $doc//tei:body//tei:rs[@type="bibl"]
+            for $person in $doc//tei:body//tei:rs[@type="work"]
                 let $key := data($person/@ref)
                 group by $key
                     return
@@ -87,7 +87,7 @@ let $result :=
     }
     {
         for $doc at $pos in collection($app:editions)//tei:TEI
-            for $person in $doc//tei:body//tei:rs[@type="bibl"]
+            for $person in $doc//tei:body//tei:rs[@type="work"]
             let $key := data($person/@ref)
                 return
                     <edges>
