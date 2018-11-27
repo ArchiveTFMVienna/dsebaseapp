@@ -14,43 +14,43 @@
                     <link rel="stylesheet" href="style.css"/>
                 </xsl:if>
                 <style>p.capitalize {
-                        text-transform: capitalize;
+                    text-transform: capitalize;
                     }</style>
             </head>
             <body>
                 <div class="modal" id="myModal" role="dialog">
-                <div class="modal-dialog"><!-- Modal content-->
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal">
-                                <span class="fa fa-times"/>
-                            </button>
-                            <h3 class="modal-title" style="font-variant: small-caps">
-                                <small>node id:</small> <xsl:value-of select="$entiyID"/>
-                            </h3>
-                            <h4>
-                                            <a>
-                                                <xsl:attribute name="href">
-                                                    <xsl:value-of select="concat('hits.html?searchkey=', $entiyID)"/>
-                                                </xsl:attribute>
-                                                <xsl:attribute name="target">_blank</xsl:attribute>
-                                                mentioned in
-                                            </a>
-                            </h4>
-                        </div>
-                        <div class="modal-body">
-                            <xsl:choose>
-                                <xsl:when test="//*[@xml:id=$entiyID or @id=$entiyID]">
-                                    <xsl:apply-templates select="//*[@xml:id=$entiyID or @id=$entiyID]" mode="start"/>
-                                </xsl:when>
-                                <xsl:otherwise>Looks like there exists no index entry for ID<strong>
+                    <div class="modal-dialog"><!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">
+                                    <span class="fa fa-times"/>
+                                </button>
+                                <h3 class="modal-title" style="font-variant: small-caps">
+                                    <small>node id:</small> <xsl:value-of select="$entiyID"/>
+                                </h3>
+                                <h4>
+                                    <a>
+                                        <xsl:attribute name="href">
+                                            <xsl:value-of select="concat('hits.html?searchkey=', $entiyID)"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="target">_blank</xsl:attribute>
+                                        mentioned in
+                                    </a>
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                <xsl:choose>
+                                    <xsl:when test="//*[@xml:id=$entiyID or @id=$entiyID]">
+                                        <xsl:apply-templates select="//*[@xml:id=$entiyID or @id=$entiyID]" mode="start"/>
+                                    </xsl:when>
+                                    <xsl:otherwise>Looks like there exists no index entry for ID<strong>
                                         <xsl:value-of select="concat(' ', $entiyID)"/>
                                     </strong> 
-                                </xsl:otherwise>
-                            </xsl:choose>
+                                    </xsl:otherwise>
+                                </xsl:choose>
+                            </div>
                         </div>
                     </div>
-                </div>
                 </div>
             </body>
         </html>

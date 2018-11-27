@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
       <fileDesc>
@@ -45,23 +46,16 @@
       </fileDesc>
       <encodingDesc>
          <p>
-            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                        href="../indices/listperson.xml"
-                        xpointer="listperson">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listperson.xml" xpointer="listperson">
                <fallback xmlns="http://www.w3.org/2001/XInclude">File to include couldn't be found</fallback>
             </xi:include>
-            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                        href="../indices/listplace.xml"
-                        xpointer="listplace">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listplace.xml" xpointer="listplace">
                <fallback xmlns="http://www.w3.org/2001/XInclude">File to include couldn't be found</fallback>
             </xi:include>
-            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                        href="../indices/listorg.xml"
-                        xpointer="listorg">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml" xpointer="listorg">
                <fallback xmlns="http://www.w3.org/2001/XInclude">File to include couldn't be found</fallback>
             </xi:include>
-            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listwork.xml"
-               xpointer="listwork">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listwork.xml" xpointer="listwork">
                <fallback xmlns="http://www.w3.org/2001/XInclude">File to include couldn't be
                   found</fallback>
             </xi:include>
@@ -138,12 +132,19 @@
             "Das Nationaltheater des deutschen Volkes" von <rs type="person" ref="#kindermann_heinz">Prof. Dr. Kindermann</rs> 
             ist im Fahnensatz fertig. Er wird nun eben illustriert. Wir
             hoffen, daß es im Frühjahr oder Sommer <date notBefore="1944-01-01" notAfter="1944-12-31">1944</date> im <rs type="org" ref="#propyläenverlag">Propyläenverlag</rs>,
-               <address><rs type="place" ref="#berlin">Berlin,</rs> <addrLine>Kochstraße</addrLine></address>, erscheint. Jüngst erschien <rs type="person" ref="#kindermann_heinz">Prof. Dr. Kindermanns</rs> Abhandlung
-               <rs type="work" ref="#hebbel_kindermann">"Hebbel und das Wiener Theater seiner Zeit"</rs> im <rs type="org" ref="#verlag_frick">Verlag Frick</rs>, <address><rs type="place" ref="#wien_I">Wien, I.,</rs><addrLine>Graben</addrLine></address>.
+               <address>
+                        <rs type="place" ref="#berlin">Berlin,</rs> <addrLine>Kochstraße</addrLine>
+                    </address>, erscheint. Jüngst erschien <rs type="person" ref="#kindermann_heinz">Prof. Dr. Kindermanns</rs> Abhandlung
+               <rs type="work" ref="#hebbel_kindermann">"Hebbel und das Wiener Theater seiner Zeit"</rs> im <rs type="org" ref="#verlag_frick">Verlag Frick</rs>, <address>
+                        <rs type="place" ref="#wien_I">Wien, I.,</rs>
+                        <addrLine>Graben</addrLine>
+                    </address>.
              Im <rs type="org" ref="#verlag_frick">gleichen Verlag</rs> wird zu <date when="1943-12-25">Weihnachten</date> in ähnlicher bebilderter Ausstattung seine Abhandlung
              <rs type="work" ref="#hölderlin_kindermann">"Hölderlin und das deutsche Theater"</rs> herauskommen. Endlich ist auch die Neuauflage von <rs type="person" ref="#kindermann_heinz">Kindermanns</rs> Biographie über den Wiener
                <rs type="person" ref="#raimund_ferdinand">Volksdramatiker und Volksdarsteller Ferdinand Raimund</rs> im <rs type="org" ref="#wiener_verlag">Wiener
-                  Verlag</rs>, <address><rs type="place" ref="#Wien">Wien, XII.,</rs> <addrLine>Niederhofstraße 57</addrLine></address>, erschienen. Dort wird im
+                  Verlag</rs>, <address>
+                        <rs type="place" ref="#Wien">Wien, XII.,</rs> <addrLine>Niederhofstraße 57</addrLine>
+                    </address>, erschienen. Dort wird im
                <date when="1944-01">Januar</date> auch eine Neuauflage von <rs type="person" ref="#kindermann_heinz">Kindermanns</rs> "Geschichte des
              Burgtheaters" erscheinen.</p>
             <p>In den theatergeschichtlichen Forschungen aber dieser vom
@@ -154,7 +155,9 @@
                <rs type="person" ref="#frank_eduard">Dr. Eduard Franks</rs> Arbeit über Schlenther
                als <roleName>Burgtheaterdirektor</roleName>, <rs type="person" ref="#pilger_else">Dr. Else Pilgers</rs> <rs type="work" ref="#arbeit_bernhard_shaw">Arbeit über Bernhard Shaw</rs>
             auf der deutschen Bühne und andere mehr (<rs type="org" ref="#verlag_matthiesen">Verlag Dr. Matthiesen</rs>, 
-               <address><rs type="place" ref="#berlin">Berlin SW 68,</rs> <addrLine>Ritterstraße 77</addrLine></address>). Die Zahl der Studierenden der
+               <address>
+                        <rs type="place" ref="#berlin">Berlin SW 68,</rs> <addrLine>Ritterstraße 77</addrLine>
+                    </address>). Die Zahl der Studierenden der
             Theaterwissenschaft hat sich seit dem letzten Semester dadurch be</p>
             
             <pb n="3"/>
@@ -166,14 +169,22 @@
             wird den Studierenden der Theaterwissenschaft in diesem Semester
             folgendes angeboten:</p>
             <p>"Deutsches und europäisches Theater des Mittelalters"</p>
-            <p>Vorlesung von <rs type="person" ref="#kindermann_heinz">Prof. Dr. Kindermann</rs></p>
+            <p>Vorlesung von <rs type="person" ref="#kindermann_heinz">Prof. Dr. Kindermann</rs>
+                </p>
             <p>"Wesen und Geschichte der Regie", Übungen der Oberstufe</p>
-            <p><rs type="person" ref="#kindermann_heinz">Prof. Dr. Kindermann</rs></p>
+            <p>
+                    <rs type="person" ref="#kindermann_heinz">Prof. Dr. Kindermann</rs>
+                </p>
             <p>"Schauspielkunst des 19. Jahrhunderts", Übungen der Unterstufe</p>
-            <p><rs type="person" ref="#kindermann_heinz">Prof. Dr. Kindermann</rs></p>
-            <p>Kolloquium über praktische Bühnenkunde <rs type="person" ref="#niederführ_otto">Prof. Dr. Niederführ</rs></p>
-            <p>Kolloquium über praktische Dramaturgie <rs type="person" ref="#börge_vagn">Dozent Dr. Börge</rs></p>
-            <p>Einführung in die Dramaturgie des Films <rs type="person" ref="#börge_vagn">Dozent Dr. Börge</rs></p>
+            <p>
+                    <rs type="person" ref="#kindermann_heinz">Prof. Dr. Kindermann</rs>
+                </p>
+            <p>Kolloquium über praktische Bühnenkunde <rs type="person" ref="#niederführ_otto">Prof. Dr. Niederführ</rs>
+                </p>
+            <p>Kolloquium über praktische Dramaturgie <rs type="person" ref="#börge_vagn">Dozent Dr. Börge</rs>
+                </p>
+            <p>Einführung in die Dramaturgie des Films <rs type="person" ref="#börge_vagn">Dozent Dr. Börge</rs>
+                </p>
             <p>Außerdem wird zum erstenmal in diesem Semester eine Ring
             vorlesung für künftige Kunstbetrachter gehalten, die an alle am
             Theaterwesen interessierten Hochschulen Wiens führt. Sie begann
@@ -226,15 +237,23 @@
             Vaterlande entscheidende Erfolge. Wir sind im Geiste bei Euch,
             drücken Euch zuversichtlich die Hand und hoffen, Euch in nicht
             allzuferner Zeit auf Eurem Arbeitsplatz in unserem schönen <rs type="org" ref="#zentralinstitut">Zentralinstitut</rs> begrüßen zu können.</p>
-            <p>Im Namen aller Mitglieder des <rs type="org" ref="#zentralinstitut">Zentralinstituts</rs></p>
+            <p>Im Namen aller Mitglieder des <rs type="org" ref="#zentralinstitut">Zentralinstituts</rs>
+                </p>
             <p>grüßt Euch</p>
-            <p><rs type="person" ref="#kindermann_heinz">Prof. Dr. HEINZ KINDERMANN</rs>,</p>
-            <p><roleName>Direktor</roleName> des <rs type="org" ref="#zentralinstitut">Zentralinstituts für Theaterwissenschaft</rs></p>
+            <p>
+                    <rs type="person" ref="#kindermann_heinz">Prof. Dr. HEINZ KINDERMANN</rs>,</p>
+            <p>
+                    <roleName>Direktor</roleName> des <rs type="org" ref="#zentralinstitut">Zentralinstituts für Theaterwissenschaft</rs>
+                </p>
             <p>an der <rs type="org" ref="#universitaet_wien">Universität Wien</rs>.</p>
             
-            <p>Institutsanschrift: <address><rs type="place" ref="#wien_I">Wien I,</rs> <addrLine><rs type="place" ref="#hofburg">Hofburg</rs>, Batthanyistiege</addrLine></address>. Ruf R20-5-20.</p>
+            <p>Institutsanschrift: <address>
+                        <rs type="place" ref="#wien_I">Wien I,</rs> <addrLine>
+                            <rs type="place" ref="#hofburg">Hofburg</rs>, Batthanyistiege</addrLine>
+                    </address>. Ruf R20-5-20.</p>
                               
-            <p>DRUCK VON <orgName type="publisher">ADOLF HOLZHAUSENS NFG.</orgName>, <rs type="place" ref="#Wien">WIEN</rs></p>        
+            <p>DRUCK VON <orgName type="publisher">ADOLF HOLZHAUSENS NFG.</orgName>, <rs type="place" ref="#Wien">WIEN</rs>
+                </p>        
          </div>
       </body>
    </text>

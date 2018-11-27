@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
@@ -45,23 +46,19 @@
       </fileDesc>
       <encodingDesc>
          <p>
-            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listperson.xml"
-               xpointer="listperson">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listperson.xml" xpointer="listperson">
                <fallback xmlns="http://www.w3.org/2001/XInclude">File to include couldn't be
                   found</fallback>
             </xi:include>
-            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listplace.xml"
-               xpointer="listplace">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listplace.xml" xpointer="listplace">
                <fallback xmlns="http://www.w3.org/2001/XInclude">File to include couldn't be
                   found</fallback>
             </xi:include>
-            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml"
-               xpointer="listorg">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml" xpointer="listorg">
                <fallback xmlns="http://www.w3.org/2001/XInclude">File to include couldn't be
                   found</fallback>
             </xi:include>
-            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listwork.xml"
-               xpointer="listwork">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listwork.xml" xpointer="listwork">
                <fallback xmlns="http://www.w3.org/2001/XInclude">File to include couldn't be
                   found</fallback>
             </xi:include>
@@ -77,41 +74,30 @@
          <head type="sub">Wien, I., Hofburg, Batthianystiege, I. Stock – Fernruf R-20-5-20</head>
          <div type="letter" n="1">
             <salute>Liebe Kameraden!</salute>
-            <p>Schon auf die ersten Zeitungsnotizen über die Gründung eines <rs type="org"
-                  ref="#zentralinstitut">Zentralinstituts für Theaterwissenschaft</rs> hin hat sich
+            <p>Schon auf die ersten Zeitungsnotizen über die Gründung eines <rs type="org" ref="#zentralinstitut">Zentralinstituts für Theaterwissenschaft</rs> hin hat sich
                eine größere Zahl von zur Wehrmacht einberufenen Studierenden gemeldet, die
-               fernbetreut werden wollten. Es war für alle, die bei der Errichtung des <rs
-                  type="org" ref="#zentralinstitut">Zentralinstituts</rs> mit am Werke waren und
+               fernbetreut werden wollten. Es war für alle, die bei der Errichtung des <rs type="org" ref="#zentralinstitut">Zentralinstituts</rs> mit am Werke waren und
                sind, eine große Freude, diese rege Anteilnahme gerade auch aus dem Feld zu erfahren.
                War sie doch ein Beweis dafür, daß diejenigen einen notwendigen und richtigen Weg
-               einschlugen, die noch inmitten des Krieges die Schaffung dieses <rs type="org"
-                  ref="#zentralinstitut">Zentralinstituts</rs> im Zusammenhang mit dem neuen
-               Lehrstuhl für <!-- Wissenschaftliche Disziplin -->Theaterwissenschaft an der <rs
-                  type="org" ref="#universitaet_wien">Wiener Universität</rs> veranlaßt hatten.
+               einschlugen, die noch inmitten des Krieges die Schaffung dieses <rs type="org" ref="#zentralinstitut">Zentralinstituts</rs> im Zusammenhang mit dem neuen
+               Lehrstuhl für <!-- Wissenschaftliche Disziplin -->Theaterwissenschaft an der <rs type="org" ref="#universitaet_wien">Wiener Universität</rs> veranlaßt hatten.
                Zugleich gab ihnen diese Anteilnahme aus dem Feld die Gewähr, daß sie ihre Arbeit
                nicht nur für heute, sondern erst recht für morgen, besonders für die einst aus dem
                Feld Heimkehrenden, verrichten.</p>
             <p>Mit dem vorliegenden Rundbrief nehmen wir eine erste Fühlung mit all den
                fernzubetreuenden Kameraden auf und begrüßen Sie herzlich als fachlich
-               Gleichstrebende. Wir drucken Teile aus den Reden des Rektors der <rs type="org"
-                  ref="#universitaet_wien">Universität Wien</rs>, <rs type="person"
-                  ref="#pernkopf_eduard">Univ.-Prof. Dr. Pernkopf</rs>, und des Lehrstuhlinhabers
+               Gleichstrebende. Wir drucken Teile aus den Reden des Rektors der <rs type="org" ref="#universitaet_wien">Universität Wien</rs>, <rs type="person" ref="#pernkopf_eduard">Univ.-Prof. Dr. Pernkopf</rs>, und des Lehrstuhlinhabers
                und Institutsdirektors, <rs type="person" ref="#kindermann_heinz">Univ.-Prof. Dr.
                   Heinz Kindermann</rs>, anläßlich der am <date when="1943-05-25">25. Mai
-                  1943</date> stattgefundenen Eröffnung des <rs type="org" ref="#zentralinstitut"
-                  >Zentralinstituts für Theaterwissenschaft</rs> ab. Sie geben auch auf viele der
+                  1943</date> stattgefundenen Eröffnung des <rs type="org" ref="#zentralinstitut">Zentralinstituts für Theaterwissenschaft</rs> ab. Sie geben auch auf viele der
                Fragen Antwort, die in den Briefen von der Front immer wieder an uns gestellt
                werden.</p>
             <p>Dem Leiter des <rs type="org" ref="#zentralinstitut">Zentralinstituts für
-                  Theaterwissenschaft</rs> stehen zwei wissenschaftliche Hilfskräfte, <rs
-                  type="person" ref="#dietrich_margret">Fräulein Margret Dietrich</rs> und <rs
-                  type="person" ref="#schiffer_gustave">Fräulein Gustave Schiffer</rs>, zur Seite.
+                  Theaterwissenschaft</rs> stehen zwei wissenschaftliche Hilfskräfte, <rs type="person" ref="#dietrich_margret">Fräulein Margret Dietrich</rs> und <rs type="person" ref="#schiffer_gustave">Fräulein Gustave Schiffer</rs>, zur Seite.
                Ein ganzer Stab von reiferen Studentinnen der <!-- Disziplin -->Theaterwissenschaft
                ist unter der Leitung von <rs type="person" ref="#meyer_ruth">Dipl.-Bibliothekarin
                   Meyer</rs> außerdem eingesetzt, um die große theaterwissenschaftliche
-               Fachbibliothek (darunter die stattliche <rs type="org" ref="#busch-bibliothek"
-                  >Busch-Bibliothek</rs>, eine Leihgabe der Stadt <rs type="place" ref="#münster"
-                  >Münster</rs>) des Zentralinstituts zu katalogisieren. Zunächst wird der
+               Fachbibliothek (darunter die stattliche <rs type="org" ref="#busch-bibliothek">Busch-Bibliothek</rs>, eine Leihgabe der Stadt <rs type="place" ref="#münster">Münster</rs>) des Zentralinstituts zu katalogisieren. Zunächst wird der
                Verfasserkatalog <pb n="2"/>
                <fw type="pageNum">2</fw>
                <fw type="pageNum">2</fw> angelegt, der bis Ende des Sommersemesters fertiggestellt
@@ -119,44 +105,31 @@
                Auch dafür steht ein Stab von Studentinnen zur Verfügung, die, nach abgeleistetem
                Fabrikseinsatz, hier ihren neuerlichen Arbeitseinsatz ableisten.</p>
             <p>Das <rs type="org" ref="#zentralinstitut">Zentralinstitut für
-                  Theaterwissenschaft</rs> ist im Reichskanzleitrakt der <rs type="place"
-                  ref="#hofburg">Wiener Hofburg</rs> untergebracht (fünf Minuten von der Universität
+                  Theaterwissenschaft</rs> ist im Reichskanzleitrakt der <rs type="place" ref="#hofburg">Wiener Hofburg</rs> untergebracht (fünf Minuten von der Universität
                entfernt). Es verdankt seine schönen Räume der Wiener Reichsstatthalterei, besonders
-               dem nun zur Wehrmacht einberufenen <rs type="person" ref="#thomas_walter"
-                  >Generalkulturreferenten Thomas</rs>, der auch sonst in all den Monaten des
+               dem nun zur Wehrmacht einberufenen <rs type="person" ref="#thomas_walter">Generalkulturreferenten Thomas</rs>, der auch sonst in all den Monaten des
                Entstehens keine Mühe scheute, um alle die vielen kriegsbedingten Schwierigkeiten aus
-               dem Weg zu räumen. Man tritt vom <rs type="place" ref="#michaelerplatz"
-                  >Michaelerplatz</rs> her (auf dem einst das alte Burgtheater stand) in die
+               dem Weg zu räumen. Man tritt vom <rs type="place" ref="#michaelerplatz">Michaelerplatz</rs> her (auf dem einst das alte Burgtheater stand) in die
                gewaltige Michaelerkuppel und wendet sich dort rechter Hand zur Batthianystiege. Hier
                stehen sechs festlich-hohe Räume mit alten olivgrünen Hoftapeten, reichen
                Kristalllustern, weißen Kachelöfen und großen Rundbogenfenstern nach dem
                Michaelerplatz zur Verfügung. Außerdem gehören noch neun weitere, auf einen der Höfe
-               der Burg führende Räume dem <rs type="org" ref="#zentralinstitut"
-                  >Zentralinstitut</rs>. Vorerst wurden die sechs Vorderräume eingerichtet. Die
+               der Burg führende Räume dem <rs type="org" ref="#zentralinstitut">Zentralinstitut</rs>. Vorerst wurden die sechs Vorderräume eingerichtet. Die
                übrigen Räume folgen im Sommer und Herbst. Jeder der Säle ist nach einem Großen des
                deutschen Theaters benannt, dessen Bild oder Bildnisrelief den betreffenden Raum
                ziert. So wurde der Übungssaal mit seinen grünen Tischen für 60 Teilnehmer und mit
-               seinem schön geschnitzten Podium nach einem lebensgroßen Bild von <rs type="person"
-                  ref="#kainz_josef">Kainz</rs> als Don Carlos Kainz-Raum benannt. Ihm schließt sich
-               der kreisrunde Schreyvogel-Saal (geziert mit einem <rs type="person"
-                  ref="#schreyvogel_joseph">Schreyvogel</rs>-Relief von <rs type="person"
-                  ref="#tressler_otto">Otto Treßler</rs>) an, der als Ausstellungsraum Verwendung
+               seinem schön geschnitzten Podium nach einem lebensgroßen Bild von <rs type="person" ref="#kainz_josef">Kainz</rs> als Don Carlos Kainz-Raum benannt. Ihm schließt sich
+               der kreisrunde Schreyvogel-Saal (geziert mit einem <rs type="person" ref="#schreyvogel_joseph">Schreyvogel</rs>-Relief von <rs type="person" ref="#tressler_otto">Otto Treßler</rs>) an, der als Ausstellungsraum Verwendung
                findet und in dem stets alle die Stiche, Photos, Bühnenbildmodelle und seltenen
                Drucke Aufstellung finden, die eben bei den theaterwissenschaftlichen Übungen der
                Ober- oder Unterstufe sowie bei den programmatisch angesetzten gemeinschaftlichen
                Forschungsarbeiten des Instituts benötigt werden. Es handelt sich dabei zum großen
-               Teil um Objekte aus dem Eigenbesitz des <rs type="org" ref="#zentralinstitut"
-                  >Zentralinstituts</rs>, zum Teil aber auch um Leihgaben aus der <rs type="org"
-                  ref="#theatersammlung_nationalbibliothek">Theatersammlung der
-                  Nationalbibliothek</rs>, die im selben Trakt der <rs type="place" ref="#hofburg"
-                  >Hofburg</rs> (ein Stockwerk höher) untergebracht ist. Die beiden Bibliothekssäle
-               des Zentralinstituts sind nach Mitterwurzer und <rs type="person"
-                  ref="#wolter_charlotte">Charlotte Wolter</rs>, das Zimmer der Assistentinnen ist
+               Teil um Objekte aus dem Eigenbesitz des <rs type="org" ref="#zentralinstitut">Zentralinstituts</rs>, zum Teil aber auch um Leihgaben aus der <rs type="org" ref="#theatersammlung_nationalbibliothek">Theatersammlung der
+                  Nationalbibliothek</rs>, die im selben Trakt der <rs type="place" ref="#hofburg">Hofburg</rs> (ein Stockwerk höher) untergebracht ist. Die beiden Bibliothekssäle
+               des Zentralinstituts sind nach Mitterwurzer und <rs type="person" ref="#wolter_charlotte">Charlotte Wolter</rs>, das Zimmer der Assistentinnen ist
                nach dem großen <rs type="person" ref="#raimund_ferdinand">Volksdarsteller und
-                  Volksdramatiker Raimund</rs>, das Direktorzimmer nach dem Burgtheaterdirektor <rs
-                  type="person" ref="#berger_alfred">Freiherrn von Berger</rs> benannt.</p>
-            <p>Außer der stattlichen Fachbibliothek verfügt das <rs type="org"
-                  ref="#zentralinstitut">Zentralinstitut</rs> noch über eine größere Sammlung
+                  Volksdramatiker Raimund</rs>, das Direktorzimmer nach dem Burgtheaterdirektor <rs type="person" ref="#berger_alfred">Freiherrn von Berger</rs> benannt.</p>
+            <p>Außer der stattlichen Fachbibliothek verfügt das <rs type="org" ref="#zentralinstitut">Zentralinstitut</rs> noch über eine größere Sammlung
                theaterwissenschaftlicher <pb n="3"/>
                <fw type="pageNum">3</fw> Bildwerke. Eine Sammlung von Bühnenbildmodellen ist im
                Aufbau begriffen. Eine Diapositivsammlung unterstützt die Vorlesungs- und
@@ -181,20 +154,15 @@
                Theaterwissenschaft aber auch als Nebenfach neben einem geisteswissenschaftlichen
                Hauptfach studieren. Wir stehen für die Beratung in diesen Fragen gerne in jedem
                einzelnen Fall zur Verfügung.</p>
-            <p>Im Sommersemester 1943 wurde vorerst von <rs type="person" ref="#kindermann_heinz"
-                  >Prof. Kindermann</rs> ein Hauptkolleg über „Das Nationaltheater der deutschen
+            <p>Im Sommersemester 1943 wurde vorerst von <rs type="person" ref="#kindermann_heinz">Prof. Kindermann</rs> ein Hauptkolleg über „Das Nationaltheater der deutschen
                Klassik“, ein theaterwissenschaftliches Oberseminar über das Barocktheater und eine
                theaterwissenschaftliche Unterstufe (Einführung in die Grundlagen der
                Theaterwissenschaft) gehalten. Im Wintersemester 1943/44 wird der Arbeitsplan in
-               erweiterter Form fortgesetzt werden. Das Hauptkolleg von <rs type="person"
-                  ref="#kindermann_heinz">Prof. Kindermann</rs> wird das deutsche und europäische
+               erweiterter Form fortgesetzt werden. Das Hauptkolleg von <rs type="person" ref="#kindermann_heinz">Prof. Kindermann</rs> wird das deutsche und europäische
                Theater des Mittelalters behandeln. Die theaterwissenschaftlichen Übungen der
                Oberstufe werden dem Wesen und der Geschichte der Regie, die der Unterstufe der
-               Schauspielkunst des 19. Jahrhunderts gewidmet sein. Außerdem werden im Rahmen des <rs
-                  type="org" ref="#zentralinstitut">Zentralinstituts</rs> der <rs type="person"
-                  ref="#börge_vagn">Dozent für nordische Philologie und Dramaturgie Dr. Börge</rs>
-               ein Kolloquium über praktische Dramaturgie und der <rs type="person"
-                  ref="#niederführ_otto">Leiter der Schauspielschule des Burgtheaters, Dr.
+               Schauspielkunst des 19. Jahrhunderts gewidmet sein. Außerdem werden im Rahmen des <rs type="org" ref="#zentralinstitut">Zentralinstituts</rs> der <rs type="person" ref="#börge_vagn">Dozent für nordische Philologie und Dramaturgie Dr. Börge</rs>
+               ein Kolloquium über praktische Dramaturgie und der <rs type="person" ref="#niederführ_otto">Leiter der Schauspielschule des Burgtheaters, Dr.
                   Niederführ</rs>, ein Kolloquium über praktische Bühnenkunde halten. Ein Lehrgang
                für künftige Kunstbetrachter wird sich anschließen. <pb n="4"/>
                <fw type="pageNum">4</fw> Eine Reihe von Regisseuren und Bühnenbildnern werden in
@@ -208,8 +176,7 @@
                Dienststellen zu wirken, reiche Möglichkeiten zur Ausbildung zur Verfügung. Zu ihnen
                gehört nicht zuletzt der ständige Kontakt zwischen Wissenschaft und Kunst, wie er
                sich hier Tag für Tag ergibt, und die Aussprachemöglichkeiten mit jenen Forschern,
-               deutschen und ausländischen, die am <rs type="org" ref="#zentralinstitut"
-                  >Zentralinstitut</rs> arbeiten.</p>
+               deutschen und ausländischen, die am <rs type="org" ref="#zentralinstitut">Zentralinstitut</rs> arbeiten.</p>
             <p>Wir werden diese Rundbriefe etwa dreimal jährlich an alle Fernbetreuten und an die
                zur <rs type="org" ref="#wehrmacht">Wehrmacht</rs> abgegangenen ehemaligen
                Institutsmitglieder senden und dabei vom nächsten Rundbrief an Anleitungen zur
@@ -223,10 +190,11 @@
                bekanntzugeben.</p>
             <p>Allen Fernbetreuten wünschen wir indessen für die nächste Zeit ein freundliches
                Geschick.</p>
-            <p><date notBefore="1943-06-01" notAfter="1943-06-30">Juni 1943</date>.</p>
-            <p>Im Namen aller Mitarbeiter und Mitglieder des <rs type="org" ref="#zentralinstitut"
-                  >Zentralinstitus<!-- sic --> für Theaterwissenschaft</rs>:</p>
-            <signed><rs type="person" ref="#kindermann_heinz">Heinz Kindermann</rs>.</signed>
+            <p>
+                    <date notBefore="1943-06-01" notAfter="1943-06-30">Juni 1943</date>.</p>
+            <p>Im Namen aller Mitarbeiter und Mitglieder des <rs type="org" ref="#zentralinstitut">Zentralinstitus<!-- sic --> für Theaterwissenschaft</rs>:</p>
+            <signed>
+                    <rs type="person" ref="#kindermann_heinz">Heinz Kindermann</rs>.</signed>
             <pb n="5"/>
             <figure>
                <head>Michaelerkuppel und Reichskanzleitrakt der Wiener Hofburg, die
@@ -247,8 +215,7 @@
             <head type="main" style="text-align:center">Theaterwissenschaft als
                Lebenswissenschaft.</head>
             <head type="sub" style="text-align:center">Aus der Ansprache von Univ.-Prof. Dr. Heinz
-               KINDERMANN anläßlich der Eröffnung des <rs type="org" ref="#zentralinstitut"
-                  >Zentralinstituts für Theaterwissenschaft</rs> an der Universität Wien am 25. Mai
+               KINDERMANN anläßlich der Eröffnung des <rs type="org" ref="#zentralinstitut">Zentralinstituts für Theaterwissenschaft</rs> an der Universität Wien am 25. Mai
                1945.</head>
             <p>Schon seit geraumer Zeit trug sich der Herr Reichserziehungsminister mit dem Plan, an
                einer der deutschen Universitäten ein Zentralinstitut für Theaterwissenschaft zu
@@ -260,8 +227,7 @@
                lebendige Zusammenspiel der Kräfte zu überschauen, zu umgrenzen und zu ergründen
                vermöchte.</p>
             <p>Man schwankte eine Weile, ob man dieses Zentralinstitut nach dieser oder jener
-               Universitätsstadt verlegen sollte. Schließlich aber gab der Hinweis des <rs
-                  type="person" ref="#schirach_baldur">Herrn Reichsleiters von Schirach</rs>, daß
+               Universitätsstadt verlegen sollte. Schließlich aber gab der Hinweis des <rs type="person" ref="#schirach_baldur">Herrn Reichsleiters von Schirach</rs>, daß
                   <rs type="place" ref="#wien">Wien</rs> anerkanntermaßen die an theatralischer
                Tradition und an Theaterfreude reichste Stadt der Deutschen sei und daß hier für
                dieses Arbeitsgebiet Möglichkeiten vorhanden seien wie sonst nirgends in Europa, den
@@ -273,8 +239,7 @@
                für Theaterwissenschaft verband.</p>
             <p>Mit Erlaß vom <date when="1943-10-19">19. Januar 1943</date> berief mich der Herr
                Reichserziehungsminister auf diesen Lehrstuhl und erteilte mir gleichzeitig den
-               Auftrag zur sofortigen Errichtung des <rs type="org" ref="#zentralinstitut"
-                  >Zentralinstituts für Theaterwissenschaft</rs>.</p>
+               Auftrag zur sofortigen Errichtung des <rs type="org" ref="#zentralinstitut">Zentralinstituts für Theaterwissenschaft</rs>.</p>
             <p>Man entschloß sich, dieses <rs type="org" ref="#zentralinstitut">Institut</rs> noch
                inmitten des großen Völkerringens zu schaffen, weil ja gerade jetzt die brennende
                Lebensnotwendigkeit des Theaters auch inmitten des Krieges und damit jeglicher
@@ -292,8 +257,7 @@
                wird, weil nach einem Entschluß der Reichsregierung das gesamte deutsche Theater im
                Kriege der Nation in weitgehendem Maße weiterzudienen habe.</p>
             <p>So hat das <rs type="org" ref="#zentralinstitut">Zentralinstitut für
-                  Theaterwissenschaft</rs> an der <rs type="org" ref="#universitaet_wien"
-                  >Universität Wien</rs> zweierlei Funktionen zu erfüllen:</p>
+                  Theaterwissenschaft</rs> an der <rs type="org" ref="#universitaet_wien">Universität Wien</rs> zweierlei Funktionen zu erfüllen:</p>
             <p>Es ist erstens das theaterwissenschaftliche Institut der Universität, das für die
                theaterwissenschaftliche Heranbildung derjenigen Studenten zu sorgen hat, die ihren
                Doctor phil. auf Grund einer theaterwissenschaftlichen Dissertation erwerben oder die
@@ -315,15 +279,12 @@
                   <rs type="org" ref="#theatersammlung_nationalbibliothek">Theatersammlung der
                   Nationalbibliothek</rs>, mit den Sammlungen der Stadt Wien und den zahlreichen
                kleineren Sammlungen ergeben. Schon heute darf ich sagen, daß diese Zusammenarbeit in
-               erfreulichem Maße in Gang gekommen ist. Besonders die <rs type="org"
-                  ref="#theatersammlung_nationalbibliothek">Theatersammlung der
+               erfreulichem Maße in Gang gekommen ist. Besonders die <rs type="org" ref="#theatersammlung_nationalbibliothek">Theatersammlung der
                   Nationalbibliothek</rs>, mit der uns auch eine sehr günstige räumliche
                Nachbarschaft verbindet, hat uns schon bisher in großzügiger Weise ge <pb n="9"/>
                <fw type="pageNum">7</fw> holfen. Sicherlich wird sich schon in Bälde eine
                Zusammenarbeit mit allen sonstigen theatergeschichtlich interessierten Faktoren
-               Wiens, so auch mit den entsprechenden Abteilungen der <rs type="org"
-                  ref="#technische_hochschule_wien">Technischen Hochschule</rs> und der <rs
-                  type="org" ref="#akademie_der_bildenden_kuenste">Akademie der bildenden
+               Wiens, so auch mit den entsprechenden Abteilungen der <rs type="org" ref="#technische_hochschule_wien">Technischen Hochschule</rs> und der <rs type="org" ref="#akademie_der_bildenden_kuenste">Akademie der bildenden
                   Künste</rs>, aber auch mit allen einschlägigen Vereinigungen in Wien und dem
                Altreich sowie bei befreundeten Nationen ergeben.</p>
             <p>Da wir <!-- Wissenschaftliche Disziplin -->Theaterwissenschaft nicht als
@@ -331,18 +292,15 @@
                Gegenwartsleben und seinem künstlerischen Schaffen verbundene Wissenschaft treiben
                wollen, hat sich schon seit den ersten Vorarbeiten ein reger Gedankenaustausch und
                eine gute Zusammenarbeit mit dem deutschen Theater unserer Tage, besonders auch mit
-               dem Wiener Theater, ergeben. <rs type="person" ref="#schlösser_rainer"
-                  >Reichsdramaturg Dr. Rainer Schlösser</rs> und der mit unserer Vaterstadt im
+               dem Wiener Theater, ergeben. <rs type="person" ref="#schlösser_rainer">Reichsdramaturg Dr. Rainer Schlösser</rs> und der mit unserer Vaterstadt im
                Herzen immer noch verbundene <rs type="person" ref="#hartmann_paul">Präsident der
                   Reichstheaterkammer, Paul Hartmann</rs>, haben mich ihrer regsten Anteilnahme und
                Mithilfe versichert.</p>
-            <p>Mit der Wiener Staatstheaterverwaltung und dem <rs type="org" ref="#burgtheater"
-                  >Burgtheater</rs> aber verbinden mich die engsten Beziehungen seit jener 17 Jahre
+            <p>Mit der Wiener Staatstheaterverwaltung und dem <rs type="org" ref="#burgtheater">Burgtheater</rs> aber verbinden mich die engsten Beziehungen seit jener 17 Jahre
                zurückliegenden Zeit, in der ich selbst an beiden Institutionen mitarbeiten durfte.
                Diese Fäden waren nie abgerissen, und die Zusammenarbeit ist nun dank dem
                Entgegenkommen des <rs type="person" ref="#eckmann_alfred">Herrn
-                  Ministerialdirigenten Dr. Eckmann</rs>, des <rs type="person" ref="#müthel_lothar"
-                  >Herrn Generalintendanten Müthel</rs> und ihrer Mitarbeiter neuerlich aufgenommen
+                  Ministerialdirigenten Dr. Eckmann</rs>, des <rs type="person" ref="#müthel_lothar">Herrn Generalintendanten Müthel</rs> und ihrer Mitarbeiter neuerlich aufgenommen
                worden. Auch der Brückenschlag zu den übrigen Theatern ist bereits weitgehend
                vollzogen. Ganz besonders herzlich wird sich die Berührung und das gegenseitige Geben
                und Nehmen mit der <rs type="org" ref="#max_reinhardt_seminar">Schauspielschule des
@@ -353,14 +311,9 @@
                zu machen, wird das <rs type="org" ref="zentralinstitut">Zentralinstitut</rs> neben
                seinen Seminaren und Forschungen und neben Kolloquien über praktische Bühnenkunde
                ständig eine Reihe von allgemein zugänglichen Sonderveranstaltungen durchführen.
-               Diese Reihe der Sonderveranstaltungen beginnt schon am kommenden Freitag, dem <date
-                  when="1943-05-28">28. Mai</date>, mit einem Vortrag des <rs type="person"
-                  ref="#tressler_otto">Staatsschauspielers Otto Treßler</rs> über eines der
-               Kardinalprobleme der Schauspielkunst, nämlich über die „Kunst der Maske“. Am <date
-                  when="1943-06-08">8. Juni</date> wird zum 100. Todestag <rs type="person"
-                  ref="#hölderlin_friedrich">Hölderlins</rs> eine Veranstaltung „Hölderlin und das
-               deutsche Theater“ folgen, bei der nach einem einleitenden Vortrag von mir <rs
-                  type="person" ref="#aslan_raoul">Burgschauspieler Aslan</rs>, der schon bei der
+               Diese Reihe der Sonderveranstaltungen beginnt schon am kommenden Freitag, dem <date when="1943-05-28">28. Mai</date>, mit einem Vortrag des <rs type="person" ref="#tressler_otto">Staatsschauspielers Otto Treßler</rs> über eines der
+               Kardinalprobleme der Schauspielkunst, nämlich über die „Kunst der Maske“. Am <date when="1943-06-08">8. Juni</date> wird zum 100. Todestag <rs type="person" ref="#hölderlin_friedrich">Hölderlins</rs> eine Veranstaltung „Hölderlin und das
+               deutsche Theater“ folgen, bei der nach einem einleitenden Vortrag von mir <rs type="person" ref="#aslan_raoul">Burgschauspieler Aslan</rs>, der schon bei der
                Uraufführung des „Empedokles“ im Weltkrieg mitgewirkt hat, die Ätnaszene aus dem
                „Empedokles“ lesen wird. Und am <date when="1943-06-29">29. Juni</date> wird Direktor
                   <pb n="10"/>
@@ -368,24 +321,19 @@
                <rs type="person" ref="#hilpert_heinz">Heinz Hilpert</rs> im gleichen Rahmen über die
                „Formen des Theaters“ sprechen.</p>
             <p>Aber auch für die Entwicklung der Forschungsarbeit sind schon einige einleitende
-               Schritte getan worden. Zunächst mußte dafür gesorgt werden, daß dem <rs type="org"
-                  ref="zentralinstitut">Zentralinstitut</rs> eine Schriftenreihe zur Verfügung
+               Schritte getan worden. Zunächst mußte dafür gesorgt werden, daß dem <rs type="org" ref="zentralinstitut">Zentralinstitut</rs> eine Schriftenreihe zur Verfügung
                stand, in der künftig die im Zusammenhang mit ihm entstehenden wissenschaftlichen
                Arbeiten sowohl schon gereifter Forscher des In- und Auslandes als auch besonders
                gelungene Doktorarbeiten veröffentlicht werden können. Für diesen Zweck konnte die
-               älteste theaterwissenschaftliche Schriftenreihe, die <date notBefore="1891-01-01"
-                  notAfter="1891-12-31">1891</date> von <rs type="person" ref="#litzmann_berthold"
-                  >Prof. Litzmann</rs> in <rs type="place" ref="#bonn">Bonn</rs> gegründete Reihe
+               älteste theaterwissenschaftliche Schriftenreihe, die <date notBefore="1891-01-01" notAfter="1891-12-31">1891</date> von <rs type="person" ref="#litzmann_berthold">Prof. Litzmann</rs> in <rs type="place" ref="#bonn">Bonn</rs> gegründete Reihe
                „Theatergeschichtliche Forschungen“<!-- Unter anderem Titel erschienen? -->,
                übernommen werden. Sie wird von nun an in neuer Folge als offizielle Schriftenreihe
                des <rs type="org" ref="zentralinstitut">Zentralinstituts für
                   Theaterwissenschaft</rs> erscheinen. Einige grundlegend neue und wichtige Themen
                sind bereits in Arbeit.</p>
             <p>Mit zu den vordringlichsten Forderungen gehört es freilich, endlich die bitter
-               empfundene Lücke einer gesamtdeutschen Theatergeschichte zu füllen. Seit <rs
-                  type="person" ref="#devrient_eduard">Devrients</rs> schon um die Mitte des 19.
-               Jahrhunderts entworfener <rs type="work"
-                  ref="#geschichte_der_deutschen_schauspielkunst">Geschichte der deutschen
+               empfundene Lücke einer gesamtdeutschen Theatergeschichte zu füllen. Seit <rs type="person" ref="#devrient_eduard">Devrients</rs> schon um die Mitte des 19.
+               Jahrhunderts entworfener <rs type="work" ref="#geschichte_der_deutschen_schauspielkunst">Geschichte der deutschen
                   Schauspielkunst</rs> ist dieser Versuch nie mehr unternommen worden. Vor zwei
                Jahren nun habe ich selbst den Auftrag erhalten, eine „Theatergeschichte des
                deutschen Volkes“<!-- Unter anderem Titel erschienen? --> zu schreiben. Vor kurzem
@@ -407,22 +355,16 @@
                engen Zusammenhanges dieses <rs type="org" ref="zentralinstitut">Instituts</rs> mit
                meiner <rs type="org" ref="#universitaet_wien">Wiener Heimat-Universität</rs> zu
                gedenken, in die ich nun, nach 16jährigem Wirken im niederdeutschen Raum, nämlich in
-                  <rs type="place" ref="#danzig">Danzig</rs> und <rs type="place" ref="#münster"
-                  >Münster</rs>, zurückkehren durfte. Ich grüße in Ihnen, <pb n="11"/>
+                  <rs type="place" ref="#danzig">Danzig</rs> und <rs type="place" ref="#münster">Münster</rs>, zurückkehren durfte. Ich grüße in Ihnen, <pb n="11"/>
                <fw type="pageNum">9</fw> Magnifizenz, und in Ihnen, Spektabilität, unsere Alma mater
-               und ihre philosophische Fakultät und bitte Sie beide, unser <rs type="org"
-                  ref="zentralinstitut">Zentralinstitut</rs> unter Ihren Schutz zu nehmen und ihm
+               und ihre philosophische Fakultät und bitte Sie beide, unser <rs type="org" ref="zentralinstitut">Zentralinstitut</rs> unter Ihren Schutz zu nehmen und ihm
                Ihre Ständige Hilfe zuteil werden zu lassen. Ich grüße zugleich alle diejenigen, die
                sich im Zusammenhang mit der Wiener Universität schon seit langem, schon seit frühen
-               Versuchen von <rs type="person" ref="#glossy_karl">Karl Glossy</rs>, <rs
-                  type="person" ref="#minor_jakob">Jakob Minor</rs> und manchem anderen immer wieder
+               Versuchen von <rs type="person" ref="#glossy_karl">Karl Glossy</rs>, <rs type="person" ref="#minor_jakob">Jakob Minor</rs> und manchem anderen immer wieder
                von Wien aus um die Theaterwissenschaft verdient gemacht haben.</p>
-            <p>Was mir seit meinem ersten Studiensemester unsere <rs type="org"
-                  ref="#universitaet_wien">Wiener Universität</rs> und unsere <rs type="place"
-                  ref="#wien">Schöne Vaterstadt</rs> gegeben hat, das habe ich in all den 16 Jahren
+            <p>Was mir seit meinem ersten Studiensemester unsere <rs type="org" ref="#universitaet_wien">Wiener Universität</rs> und unsere <rs type="place" ref="#wien">Schöne Vaterstadt</rs> gegeben hat, das habe ich in all den 16 Jahren
                als Treuhänder Ostmärkischen Kulturgutes redlich versucht, auch anderen deutschen
-               Landschaften zu vermitteln. Da ich nun wiederkomme, hoffe ich, unserer <rs type="org"
-                  ref="#universitaet_wien">Universität</rs> und ihrem Lehrkörper sowie ihrer
+               Landschaften zu vermitteln. Da ich nun wiederkomme, hoffe ich, unserer <rs type="org" ref="#universitaet_wien">Universität</rs> und ihrem Lehrkörper sowie ihrer
                Studentenschaft auch mit all dem dienen zu dürfen, was ich draußen, im
                gesamtdeutschen Raum, auch bei den Volksdeutschen und bei den übrigen europäischen
                Nationen, vor denen ich oftmals sprechen durfte, gelernt habe.</p>
@@ -445,11 +387,8 @@
             <head type="main" style="text-align:center"> Rede des Rektors der Wiener Universität,
                   <rs type="person" ref="#pernkopf_eduard">Prof. Dr. PERNKOPF</rs>, zur Eröffnung
                des Zentralinstituts für Theaterwissenschaft an der Universität Wien.</head>
-            <p>Es ist mir eine große Freude, heute als Rektor der <rs type="org"
-                  ref="#universitaet_wien">Universität</rs> zu Ihnen zu sprechen und als solcher
-               hier eines besonderen Amtes walten zu können. Ein neues <rs type="org"
-                  ref="zentralinstitut">Institut</rs>, das der <rs type="org"
-                  ref="#universitaet_wien">Universität</rs> angegliedert sein soll, zu eröffnen und
+            <p>Es ist mir eine große Freude, heute als Rektor der <rs type="org" ref="#universitaet_wien">Universität</rs> zu Ihnen zu sprechen und als solcher
+               hier eines besonderen Amtes walten zu können. Ein neues <rs type="org" ref="zentralinstitut">Institut</rs>, das der <rs type="org" ref="#universitaet_wien">Universität</rs> angegliedert sein soll, zu eröffnen und
                es in die Obhut der <rs type="org" ref="#universitaet_wien">Universität</rs>
                aufnehmen zu können, wird wohl eine der schönsten Aufgaben sein, die der Funktion
                eines Rektors gestellt sind. Sie wird mir eine besondere Ehre und Freude schon allein
@@ -462,20 +401,17 @@
                auch den Drang in sich, die von ihm geliebte Kunstform in besonderer Weise zu
                verstehen und ihr soweit als möglich auch wissenschaftlich nahezukommen. Es ist also
                nur selbstverständlich, daß <rs type="place" ref="#wien">Wien</rs> als kunstsinnige
-               Stadt, die das Theater besonders pflegt, daß in besonderem auch die <rs type="org"
-                  ref="#universitaet_wien">Wiener Universität</rs> gerade die Eröffnung eines
+               Stadt, die das Theater besonders pflegt, daß in besonderem auch die <rs type="org" ref="#universitaet_wien">Wiener Universität</rs> gerade die Eröffnung eines
                theaterwissenschaftlichen Instituts besonders herzlich begrüßen wird. Ich darf aber
                gleich aus dieser meiner persönlichen Einstellung heraus, aus meiner Liebe zur Kunst
-               und zum Theater, weiter betonen, daß die <rs type="org" ref="#universitaet_wien"
-                  >Universität</rs>, auch unter meiner Führung, sich gerade dieses von unserem neuen
+               und zum Theater, weiter betonen, daß die <rs type="org" ref="#universitaet_wien">Universität</rs>, auch unter meiner Führung, sich gerade dieses von unserem neuen
                Institut vertretenen Gebietes der Kunstwissenschaften, das in der letzten Zeit einen
                so hervorragenden Aufschwung genommen und gerade in der nichtwissenschaftlichen Welt
                ein so begreifliches Interesse, aber auch Verständnis finden wird, in jeder nur
                notwendigen Weise annehmen und alles tun wird, um dieses Gebiet in der gebührenden
                Weise pflegen zu können. Die <rs type="org" ref="#universitaet_wien">Universität
                   Wien</rs> wird jedoch die Eröffnung eines besonderen kunstwissen <pb n="13"/>
-               <fw type="pageNum">11</fw> schaftlichen Instituts, des <rs type="org"
-                  ref="zentralinstitut">Instituts für Theaterwissenschaft</rs>, das mit seinen
+               <fw type="pageNum">11</fw> schaftlichen Instituts, des <rs type="org" ref="zentralinstitut">Instituts für Theaterwissenschaft</rs>, das mit seinen
                speziellen Aufgaben in erster Linie die äußere Erscheinung und die äußeren Mittel
                einer bestimmten Kunstform zum Gegenstand seiner wissenschaftlichen Untersuchungen
                übernimmt, im weiteren aber auch mit seinen wissenschaftlichen Kräften die
@@ -486,52 +422,35 @@
                Zusammenhänge eröffnet und neue Möglichkeiten der Universität gegeben werden, um eben
                auch in diesen besonderen, kunstwissenschaftlichen Dingen von offizieller, d. h.
                berufener Stelle aus mitarbeiten und mitberaten zu können.</p>
-            <p>So darf ich gleich anfangs den staatlichen Behörden für die Gründung dieses <rs
-                  type="org" ref="zentralinstitut">Instituts</rs> den besonderen Dank der <rs
-                  type="org" ref="#universitaet_wien">Universität</rs>, aber auch die Bitte
+            <p>So darf ich gleich anfangs den staatlichen Behörden für die Gründung dieses <rs type="org" ref="zentralinstitut">Instituts</rs> den besonderen Dank der <rs type="org" ref="#universitaet_wien">Universität</rs>, aber auch die Bitte
                aussprechen, daß sie auch weiterhin diesem jungen Kind unserer Alma mater in seiner
                Entwicklung ihre notwendige Unterstützung und Hilfe schenken. Ich darf aber auch
-               gleich begründen, warum dieses neue <rs type="org" ref="zentralinstitut"
-                  >Institut</rs>, dessen Eröffnung in die schwere Zeit eines großen Krieges fällt,
+               gleich begründen, warum dieses neue <rs type="org" ref="zentralinstitut">Institut</rs>, dessen Eröffnung in die schwere Zeit eines großen Krieges fällt,
                für uns und unsere <rs type="org" ref="#universitaet_wien">Universität</rs> eine
-               besondere Bedeutung besitzen wird: <rs type="place" ref="#wien"
-               >Wien</rs><!-- W i e n ?? -->, als eine Stadt der Kunst, hat ohne Zweifel mit seinen
+               besondere Bedeutung besitzen wird: <rs type="place" ref="#wien">Wien</rs><!-- W i e n ?? -->, als eine Stadt der Kunst, hat ohne Zweifel mit seinen
                kürstlerischen<!-- sic! -->, schöpferischen und reproduzierenden Kräften eine
-               besondere Vergangenheit, wie wir aber glauben, auch eine große Zukunft vor sich. <rs
-                  type="place" ref="#wien">Wien</rs> ist eine alte Theaterstadt, und ich glaube
+               besondere Vergangenheit, wie wir aber glauben, auch eine große Zukunft vor sich. <rs type="place" ref="#wien">Wien</rs> ist eine alte Theaterstadt, und ich glaube
                nicht zu viel zu sagen, wenn ich behaupte, daß <rs type="place" ref="#wien">Wien</rs>
                gerade in Fragen des Theaters in der Schaffung neuer Ideen hier führend vorangegangen
-               ist, in vielem neue Wege eingeschlagen hat, ja eine Zeitlang sogar in <rs
-                  type="place" ref="#deutschland">Deutschland</rs> in den verschiedensten Formen des
+               ist, in vielem neue Wege eingeschlagen hat, ja eine Zeitlang sogar in <rs type="place" ref="#deutschland">Deutschland</rs> in den verschiedensten Formen des
                Theaters, besonders auf dem Gebiete der heiteren Muse, tonangebend gewesen ist, die
-               sich dann von hier über die ganze Welt verbreitet haben. So glaube ich, ist auch <rs
-                  type="place" ref="#wien">Wien</rs> der richtige Boden, um hier ein neues
-               wissenschaftliches Institut aus der Taufe zu heben und der <rs type="org"
-                  ref="#universitaet_wien">Universität Wien</rs> ein Institut anzugliedern, das die
+               sich dann von hier über die ganze Welt verbreitet haben. So glaube ich, ist auch <rs type="place" ref="#wien">Wien</rs> der richtige Boden, um hier ein neues
+               wissenschaftliches Institut aus der Taufe zu heben und der <rs type="org" ref="#universitaet_wien">Universität Wien</rs> ein Institut anzugliedern, das die
                Aufgabe hat, sich mit den Fragen des Theaters und mit allem, was mit dem Theater
-               zusammenhängt, wissenschaftlich zu beschäftigen. Soll nun dieses <rs type="org"
-                  ref="zentralinstitut">Institut</rs> gewissermaßen der Vorort der gesamten
+               zusammenhängt, wissenschaftlich zu beschäftigen. Soll nun dieses <rs type="org" ref="zentralinstitut">Institut</rs> gewissermaßen der Vorort der gesamten
                deutschen Theaterwissenschaft werden, von dem aus zentral diese Wissenschaft geleitet
                und geführt werden kann, so glaube ich aus eben diesem Grunde sagen zu dürfen, daß
-                  <rs type="place" ref="#wien">Wien</rs> dem <rs type="org" ref="zentralinstitut"
-                  >Institut</rs> eine glückliche Entwicklung versprechen kann und ohne Zweifel alle
+                  <rs type="place" ref="#wien">Wien</rs> dem <rs type="org" ref="zentralinstitut">Institut</rs> eine glückliche Entwicklung versprechen kann und ohne Zweifel alle
                äußeren Bedingungen für diese Entwicklung mit sich bringt. Daß unsere <pb n="14"/>
-               <fw type="pageNum">12</fw> lokalen Behörden diesem neuen <rs type="org"
-                  ref="zentralinstitut">Institut</rs> ein so schönes Heim gegeben haben, dafür
+               <fw type="pageNum">12</fw> lokalen Behörden diesem neuen <rs type="org" ref="zentralinstitut">Institut</rs> ein so schönes Heim gegeben haben, dafür
                glaube ich im Namen der Universität besonders danken zu müssen.</p>
-            <p>Die Leitung dieses Zentralinstituts für Theaterwissenschaft ist nun Ihnen, <rs
-                  type="person" ref="#kindermann_heinz">Herr Prof. Kindermann</rs>, übergeben
+            <p>Die Leitung dieses Zentralinstituts für Theaterwissenschaft ist nun Ihnen, <rs type="person" ref="#kindermann_heinz">Herr Prof. Kindermann</rs>, übergeben
                worden. Ich glaube, daß wir auch dafür dem Ministerium besonders danken müssen. Die
-               Wahl und Berufung hätte keine bessere sein können. Sie haben hier in <rs type="place"
-                  ref="#wien">Wien</rs> lange vor Ihrer Berufung in das Altreich an der <rs
-                  type="org" ref="#universitaet_wien">Wiener Universität</rs> gelehrt und kennen die
+               Wahl und Berufung hätte keine bessere sein können. Sie haben hier in <rs type="place" ref="#wien">Wien</rs> lange vor Ihrer Berufung in das Altreich an der <rs type="org" ref="#universitaet_wien">Wiener Universität</rs> gelehrt und kennen die
                Verhältnisse der Kunst und besonders des Theaters auf das beste und sind nach der
-               Meinung der Universität der Mann, der dieses <rs type="org" ref="zentralinstitut"
-                  >Institut</rs> auf seinem jungen Weg am besten führen wird. Ich darf Sie hier im
+               Meinung der Universität der Mann, der dieses <rs type="org" ref="zentralinstitut">Institut</rs> auf seinem jungen Weg am besten führen wird. Ich darf Sie hier im
                Namen der Universität herzlich als Direktor des neuen Instituts begrüßen und
-               Sie<!-- sic! --> versichern, daß die <rs type="org" ref="#universitaet_wien"
-                  >Universität</rs> in Ihnen die Persönlichkeit sieht, der die Leitung dieses <rs
-                  type="org" ref="zentralinstitut">Instituts</rs> voller Vertrauen übergeben werden
+               Sie<!-- sic! --> versichern, daß die <rs type="org" ref="#universitaet_wien">Universität</rs> in Ihnen die Persönlichkeit sieht, der die Leitung dieses <rs type="org" ref="zentralinstitut">Instituts</rs> voller Vertrauen übergeben werden
                kann.</p>
             <p>Und nun sei es mir noch erlaubt, einige allgemeine Worte zur Eröffnung des Instituts
                zu sprechen, Worte, die mir als einem Freunde Ihrer Kunst und als Rektor einer

@@ -4,8 +4,8 @@
     <xsl:param name="entiyID"/>
     <xsl:variable name="entity" as="node()">
         <xsl:choose>
-            <xsl:when test="not(empty(//tei:place[@xml:id=$entiyID][1]))">
-                <xsl:value-of select="//tei:place[@xml:id=$entiyID][1]"/>
+            <xsl:when test="not(empty(//tei:bibl[@xml:id=$entiyID][1]))">
+                <xsl:value-of select="//tei:bibl[@xml:id=$entiyID][1]"/>
             </xsl:when>
             <xsl:otherwise>
                 <xsl:value-of select="false()"/>
@@ -14,50 +14,39 @@
     </xsl:variable>
     <xsl:template match="/">
         <xsl:if test="$entity">
-            <div class="modal" tabindex="-1" role="dialog" id="myModal">
+            <div class="modal" id="myModal" role="dialog">
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <xsl:choose>
                             <xsl:when test="$entity">
-                                <xsl:variable name="entity" select="//tei:place[@xml:id=$entiyID]"/>
+                                <xsl:variable name="entity" select="//tei:bibl[@xml:id=$entiyID]"/>
                                 <div class="modal-header">
-                                    
-                                    <h3 class="modal-title">
-                                        <xsl:value-of select="$entity/tei:placeName[1]"/>
-                                        <br/>
-                                        <small>
-                                            <a>
-                                                <xsl:attribute name="href">
-                                                    <xsl:value-of select="concat('hits.html?searchkey=', $entiyID)"/>
-                                                </xsl:attribute>
-                                                <xsl:attribute name="target">_blank</xsl:attribute>
-                                                mentioned in
-                                            </a>
-                                        </small>
-                                    </h3>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">x</span>
+                                    <button type="button" class="close" data-dismiss="modal">
+                                        <span class="fa fa-times"/>
                                     </button>
+                                    <h3 class="modal-title">
+                                        <xsl:value-of select="$entity"/>  
+                                    </h3>
+                                    <h4>
+                                        <a>
+                                            <xsl:attribute name="href">
+                                                <xsl:value-of select="concat('hits.html?searchkey=', $entiyID)"/>
+                                            </xsl:attribute>
+                                            <xsl:attribute name="target">_blank</xsl:attribute>
+                                            mentioned in
+                                        </a>
+                                    </h4>
                                 </div>
                                 <div class="modal-body">
                                     <table class="table table-boardered table-hover">
                                         <tr>
                                             <th>Name</th>
                                             <td>
-                                                <xsl:value-of select="//tei:place[@xml:id=$entiyID]/tei:placeName[1]"/>
+                                                <xsl:value-of select="//tei:bibl[@xml:id=$entiyID]"/>
                                             </td>
                                         </tr>
                                         
-                                        <xsl:if test="count($entity//tei:placeName) &gt; 1">
-                                            <xsl:for-each select="$entity//tei:placeName[position()&gt;1]">
-                                                <tr>
-                                                    <th>alternative names</th>
-                                                    <td>
-                                                        <xsl:value-of select="."/>
-                                                    </td>
-                                                </tr>
-                                            </xsl:for-each>
-                                        </xsl:if>
+                                        
                                         
                                         <xsl:if test="$entity/tei:idno[@type='URL']">
                                             <tr>

@@ -10,12 +10,12 @@ let $result :=
     <result>{
         
         for $doc at $pos in collection($app:editions)//tei:TEI
-            let $title := $doc//tei:titleStmt/tei:title[@type='sub']/text()
+            let $title := normalize-space($doc//tei:titleStmt/tei:title/text())
             return
                 <nodes>
                     <id>{$pos}</id>
                     <title>{$title}</title>
-                    <color>red</color>
+                    <color>#d11141</color>
                 </nodes>
     }
     {
@@ -30,7 +30,7 @@ let $result :=
                         <nodes>
                             <id>{$key}</id>
                             <title>{$person[1]/text()}</title>
-                            <color>blue</color>
+                            <color>#00b159</color>
                         </nodes>
     }
     {
@@ -49,19 +49,19 @@ let $result :=
         for $doc at $pos in collection($app:editions)//tei:TEI
             let $title := $doc//tei:titleStmt/tei:title[@type='sub']
             let $docID := $pos
-            for $person in $doc//tei:body//tei:rs[@type="org"]
+            for $person in $doc//tei:body//tei:rs[@type="place"]
                 let $key := data($person/@ref)
                 group by $key
                     return
                         <nodes>
                             <id>{$key}</id>
                             <title>{$person[1]/text()}</title>
-                            <color>green</color>
+                            <color>#00aedb</color>
                         </nodes>
     }
     {
         for $doc at $pos in collection($app:editions)//tei:TEI
-            for $person in $doc//tei:body//tei:rs[@type="org"]
+            for $person in $doc//tei:body//tei:rs[@type="place"]
             let $key := data($person/@ref)
                 return
                     <edges>
@@ -69,24 +69,25 @@ let $result :=
                         <to>{$key}</to>
                     </edges>
      }
+     
      {
         
         for $doc at $pos in collection($app:editions)//tei:TEI
             let $title := $doc//tei:titleStmt/tei:title[@type='sub']
             let $docID := $pos
-            for $person in $doc//tei:body//tei:rs[@type="work"]
+            for $person in $doc//tei:body//tei:rs[@type="bibl"]
                 let $key := data($person/@ref)
                 group by $key
                     return
                         <nodes>
                             <id>{$key}</id>
                             <title>{$person[1]/text()}</title>
-                            <color>grey</color>
+                            <color>#f37735</color>
                         </nodes>
     }
     {
         for $doc at $pos in collection($app:editions)//tei:TEI
-            for $person in $doc//tei:body//tei:rs[@type="work"]
+            for $person in $doc//tei:body//tei:rs[@type="bibl"]
             let $key := data($person/@ref)
                 return
                     <edges>
@@ -94,6 +95,7 @@ let $result :=
                         <to>{$key}</to>
                     </edges>
      }
+
     </result>
 return
     $result

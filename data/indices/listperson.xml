@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
@@ -15,8 +16,7 @@
       </fileDesc>
       <encodingDesc>
          <p>
-            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="listorg.xml"
-               xpointer="listorg">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="listorg.xml" xpointer="listorg">
                <fallback xmlns="http://www.w3.org/2001/XInclude">File to include couldn't be
                   found</fallback>
             </xi:include>
@@ -113,7 +113,7 @@
                <person xml:id="niederführ_otto">
                   <persName>
                      <surname>Niederführ</surname>
-                     <forename>Otto</forename>/> <roleName type="degree" full="abb">Prof.</roleName>
+                     <forename>Otto</forename>/&gt; <roleName type="degree" full="abb">Prof.</roleName>
                   </persName>
                </person>
                <person xml:id="waniek_herbert">
@@ -495,8 +495,8 @@
                      <surname>Herterich</surname>
                      <forename>Franz</forename>
                      <roleName>Schauspieler</roleName>
-                     <roleName>Oberregisseur des <rs ref="#burgtheater" type="org"
-                        >Burgtheaters</rs></roleName>
+                     <roleName>Oberregisseur des <rs ref="#burgtheater" type="org">Burgtheaters</rs>
+                            </roleName>
                   </persName>
                   <idno type="URL">http://d-nb.info/gnd/116752947</idno>
                </person>
@@ -523,8 +523,8 @@
                   <persName>
                      <surname>Winzberger</surname>
                      <forename/>
-                     <roleName>Technischer Direktor des <rs type="org" ref="#burgtheater"
-                           >Burgtheaters</rs></roleName>
+                     <roleName>Technischer Direktor des <rs type="org" ref="#burgtheater">Burgtheaters</rs>
+                            </roleName>
                   </persName>
                   <idno/>
                </person>
@@ -604,10 +604,10 @@
                      <surname>zur Nedden</surname>
                      <forename/>
                      <roleName type="degree" full="abb">Prof.</roleName>
-                     <roleName>Inhaber des Lehrauftrags für Theaterwissenschaft an der <rs
-                           type="org" ref="#universitaet_jena">Universität Jena</rs></roleName>
-                     <roleName>Chefdramaturg des <rs type="org" ref="#deutsches_nationaltheater"
-                           >Nationaltheaters</rs></roleName>
+                     <roleName>Inhaber des Lehrauftrags für Theaterwissenschaft an der <rs type="org" ref="#universitaet_jena">Universität Jena</rs>
+                            </roleName>
+                     <roleName>Chefdramaturg des <rs type="org" ref="#deutsches_nationaltheater">Nationaltheaters</rs>
+                            </roleName>
                   </persName>
                </person>
                <person xml:id="marlowe_christopher">
@@ -632,8 +632,8 @@
                   <persName>
                      <surname>Iltz</surname>
                      <forename>Bruno</forename>
-                     <roleName>Generalintendant des <rs type="org" ref="#deutsches_volkstheater"
-                           >Deutschen Volkstheaters</rs></roleName>
+                     <roleName>Generalintendant des <rs type="org" ref="#deutsches_volkstheater">Deutschen Volkstheaters</rs>
+                            </roleName>
                   </persName>
                   <idno>http://d-nb.info/gnd/117129518</idno>
                </person>
@@ -649,11 +649,8 @@
                   <persName>
                      <surname>Kranich</surname>
                      <forename/>
-                     <roleName>Leiter des an der <rs type="org"
-                           ref="#technische_hochschule_hannover">Technischen Hochschule</rs> in <rs
-                           type="place" ref="#hannover">Hannover</rs> gegründeten <rs type="org"
-                           ref="#theaterwissenschaftliches_institut_hannover"
-                           >Theaterwissenschaftlichen Instituts</rs></roleName>
+                     <roleName>Leiter des an der <rs type="org" ref="#technische_hochschule_hannover">Technischen Hochschule</rs> in <rs type="place" ref="#hannover">Hannover</rs> gegründeten <rs type="org" ref="#theaterwissenschaftliches_institut_hannover">Theaterwissenschaftlichen Instituts</rs>
+                            </roleName>
                      <roleName type="degree" full="abb">Prof.</roleName>
                   </persName>
                   <idno/>
@@ -664,8 +661,8 @@
                      <forename type="first">Franz</forename>
                      <forename type="middle">Ignaz</forename>
                      <nameLink>von</nameLink>
-                     <roleName>Direktor des <rs type="org" ref="#burgtheater"
-                        >Burgtheaters</rs></roleName>
+                     <roleName>Direktor des <rs type="org" ref="#burgtheater">Burgtheaters</rs>
+                            </roleName>
                   </persName>
                   <idno>http://d-nb.info/gnd/100844901</idno>
                </person>
@@ -673,8 +670,8 @@
                   <persName>
                      <surname>Thimig</surname>
                      <forename>Hugo</forename>
-                     <roleName>Direktor des <rs type="org" ref="#burgtheater"
-                        >Burgtheaters</rs></roleName>
+                     <roleName>Direktor des <rs type="org" ref="#burgtheater">Burgtheaters</rs>
+                            </roleName>
                   </persName>
                   <idno>http://d-nb.info/gnd/11875713X</idno>
                </person>
@@ -683,8 +680,8 @@
                      <surname>Millenkovich</surname>
                      <forename>Max</forename>
                      <nameLink>von</nameLink>
-                     <roleName>Direktor des <rs type="org" ref="#burgtheater"
-                        >Burgtheaters</rs></roleName>
+                     <roleName>Direktor des <rs type="org" ref="#burgtheater">Burgtheaters</rs>
+                            </roleName>
                   </persName>
                   <idno>http://d-nb.info/gnd/117042242</idno>
                </person>
@@ -855,10 +852,8 @@
                      <surname>Haeussermann</surname>
                      <roleName>Burgschauspieler</roleName>
                   </persName>
-                  <note>es gibt einen Reinhold Häussermann <idno type="URL"
-                        >http://d-nb.info/gnd/130170402</idno>, der zeitlich passt (Burgschauspieler
-                     ab 1915). Bekannter ist sein Sohn Ernst Häussermann <idno type="URL"
-                        >http://d-nb.info/gnd/116369582</idno>, der aber laut Wikipedia aufgrund
+                  <note>es gibt einen Reinhold Häussermann <idno type="URL">http://d-nb.info/gnd/130170402</idno>, der zeitlich passt (Burgschauspieler
+                     ab 1915). Bekannter ist sein Sohn Ernst Häussermann <idno type="URL">http://d-nb.info/gnd/116369582</idno>, der aber laut Wikipedia aufgrund
                      seiner jüdischen Herkunft 1939 nach Amerika emigrieren musste, daher ist es der
                      definitiv nicht.</note>
                </person>
