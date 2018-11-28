@@ -102,7 +102,7 @@
                     <h3>Zitierhinweis</h3>
                     <blockquote class="blockquote">
                         <cite title="Source Title">
-                                <xsl:value-of select="$signatur"/>; hg. vom Institut für Theater-, Film und Medienwissenschaften: In Rundbriefe App, https://rundbriefe-app.acdh.oeaw.ac.at</cite>
+                                <xsl:value-of select="$signatur"/>; hg. vom Institut für Theater-, Film und Medienwissenschaft: In Rundbriefe App, https://rundbriefe-app.acdh.oeaw.ac.at</cite>
                     </blockquote>                    
                 </p>
             </div>
@@ -165,7 +165,7 @@
                                         <tr>
                                             <th>Verantwortlich</th>
                                             <td>
-                                                <xsl:for-each select="//tei:author">
+                                                <xsl:for-each select="//tei:principal">
                                                     <xsl:apply-templates/>
                                                 </xsl:for-each>
                                             </td>

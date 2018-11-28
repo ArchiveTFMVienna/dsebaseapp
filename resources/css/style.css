@@ -12,11 +12,11 @@ span.data-hr {
 }
 
 a {
-    color: #bd0000;
+    color: #0063a6;
 }
 
 a:not([href]):not([tabindex]) {
-    color: #bd0000;
+    color: #0063a6;
     text-decoration: none;
 }
 
